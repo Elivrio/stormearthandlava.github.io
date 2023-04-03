@@ -169,7 +169,13 @@ ul {
 
 // adjust hr to match the page dark theme
 hr {
-  border-top: 1px solid $grey-color;
+  // border-top: 1px solid $grey-color;
+  display: block;
+  border: 0px;
+  height: 26px;
+  background-image: url('/assets/img/blog/bluelinebreak.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 // APL list spacing
@@ -328,6 +334,24 @@ span.blue {
   color: $brand-color;
 }
 
+div.builds-header {
+    width: 100%;
+    min-height: 80px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 10px;
+    border: 1px solid #828282;
+    cursor: pointer;
+}
+
+div.builds-header h2 {
+    text-align: center;
+    color: $brand-color;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    cursor: pointer;
+}
+
 div.dungeon-header {
     width: 100%;
     min-height: 100px;
@@ -342,7 +366,7 @@ div.dungeon-header {
 
 div.dungeon-header h2 {
     text-align: center;
-    color: white;
+    color: $brand-color;
     font-weight: bold;
     -webkit-text-stroke: 1px black;
     cursor: pointer;
@@ -353,8 +377,8 @@ div.raid-header {
     min-height: 100px;
     max-height: 150px;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100%;
+    background-position: right;
+    background-size: 30%;
     padding-bottom: 10px;
     border: 1px solid #828282;
     cursor: pointer;
@@ -362,10 +386,50 @@ div.raid-header {
 
 div.raid-header h2 {
     text-align: center;
-    color: white;
+    color: $brand-color;
     font-weight: bold;
     -webkit-text-stroke: 1px black;
     cursor: pointer;
+}
+
+div.builds-header.pswlr {
+  background-image: url('/assets/img/guide/builds/PSurge_WLR.png');
+  background-size: 10%;
+}
+
+div.builds-header.psfb {
+  background-image: url('/assets/img/guide/builds/PSurge_FB.png');
+  background-size: 10%;
+}
+
+div.builds-header.psmwf {
+  background-image: url('/assets/img/guide/builds/PSurge_MwF.png');
+  background-size: 10%;
+}
+
+div.builds-header.pssk {
+  background-image: url('/assets/img/guide/builds/PSurge_SK.png');
+  background-size: 10%;
+}
+
+div.builds-header.wfaoe {
+  background-image: url('/assets/img/guide/builds/Wildfire_AoE.png');
+  background-size: 15%;
+}
+
+div.builds-header.wfeb {
+  background-image: url('/assets/img/guide/builds/Wildfire_EB.png');
+  background-size: 20%;
+}
+
+div.builds-header.limwf {
+  background-image: url('/assets/img/guide/builds/Lightning_MwF.png');
+  background-size: 20%;
+}
+
+div.builds-header.lisfd {
+  background-image: url('/assets/img/guide/builds/Lightning_SFD.png');
+  background-size: 20%;
 }
 
 div.dungeon-header.tjs {
@@ -536,8 +600,36 @@ div.raid-header.sanctum_of_domination10 {
   background-image: url('/assets/img/guide/sanctum_of_domination/sodbanner10.PNG')
 }
 
-div.raid-header.vault_of_the_incarnates {
-    background-image: url('/assets/img/guide/vault_of_the_incarnates/vault_of_the_incarnates.png')
+div.raid-header.vault_of_the_incarnates1 {
+    background-image: url('/assets/img/guide/vault_of_the_incarnates/eranog.png');
+}
+
+div.raid-header.vault_of_the_incarnates2 {
+    background-image: url('/assets/img/guide/vault_of_the_incarnates/terros.png');
+}
+
+div.raid-header.vault_of_the_incarnates3 {
+    background-image: url('/assets/img/guide/vault_of_the_incarnates/the_primal_council.png');
+}
+
+div.raid-header.vault_of_the_incarnates4 {
+    background-image: url('/assets/img/guide/vault_of_the_incarnates/sennarth_the_cold_breath.png');
+}
+
+div.raid-header.vault_of_the_incarnates5 {
+    background-image: url('/assets/img/guide/vault_of_the_incarnates/dathea_ascended.png');
+}
+
+div.raid-header.vault_of_the_incarnates6 {
+    background-image: url('/assets/img/guide/vault_of_the_incarnates/kurog_grimtotem.png');
+}
+
+div.raid-header.vault_of_the_incarnates7 {
+    background-image: url('/assets/img/guide/vault_of_the_incarnates/broodkeeper_diurna.png');
+}
+
+div.raid-header.vault_of_the_incarnates8 {
+    background-image: url('/assets/img/guide/vault_of_the_incarnates/raszageth_the_storm_eater.png');
 }
 
 div.dungeon-accordion div.card-header {
