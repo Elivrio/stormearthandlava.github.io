@@ -108,7 +108,7 @@ primordial_fury: <a href="https://www.wowhead.com/spell=378193/primordial-fury" 
 primordial_surge: <a href="https://www.wowhead.com/spell=386474/primordial-surge" target="blank">Primordial Surge</a>
 ps: <a href="https://www.wowhead.com/spell=386474/primordial-surge" target="blank">Primordial Surge</a>
 
-primordial wave: <a href="https://www.wowhead.com/spell=375982/primordial-wave" target="blank">Primordial Wave</a>
+primordial_wave: <a href="https://www.wowhead.com/spell=375982/primordial-wave" target="blank">Primordial Wave</a>
 pw: <a href="https://www.wowhead.com/spell=375982/primordial-wave" target="blank">Primordial Wave</a>
 
 refreshing_waters: <a href="https://www.wowhead.com/spell=378211/refreshing-waters" target="blank">Refreshing Waters</a>
@@ -200,6 +200,7 @@ gust_of_wind: <a href="https://www.wowhead.com/spell=192063/gust-of-wind" target
 gow: <a href="https://www.wowhead.com/spell=192063/gust-of-wind" target="blank">Gust of Wind</a>
 
 healing_stream_totem: <a href="https://www.wowhead.com/spell=5394" target="blank">Healing Stream Totem</a>
+hst: <a href="https://www.wowhead.com/spell=5394" target="blank">Healing Stream Totem</a>
 
 hex: <a href="https://www.wowhead.com/spell=51514" target="blank">Hex</a>
 
@@ -210,8 +211,8 @@ lightning_lasso: <a href="https://www.wowhead.com/spell=305483/lightning-lasso" 
 maelstrom_weapon: <a href="https://www.wowhead.com/spell=187880/maelstrom-weapon" target="blank">Maelstrom Weapon</a>
 msw: <a href="https://www.wowhead.com/spell=187880/maelstrom-weapon" target="blank">Maelstrom Weapon</a>
 
-mana_spring_totem: <a href="https://www.wowhead.com/spell=381930/mana-spring-totem" target="blank">Mana Spring Totem</a>
-mst: <a href="https://www.wowhead.com/spell=381930/mana-spring-totem" target="blank">Mana Spring Totem</a>
+mana_spring: <a href="https://www.wowhead.com/spell=381930/mana-spring-totem" target="blank">Mana Spring</a>
+ms: <a href="https://www.wowhead.com/spell=381930/mana-spring-totem" target="blank">Mana Spring</a>
 
 natures_fury: <a href="https://www.wowhead.com/spell=381655/natures-fury" target="blank">Nature's Fury</a>
 
@@ -271,6 +272,8 @@ wrt: <a href="https://www.wowhead.com/spell=192077" target="blank">Wind Rush Tot
 winds_of_alakir: <a href="https://www.wowhead.com/spell=382215/winds-of-alakir" target="blank">Winds of Al'Alkir</a>
 
 # PvP
+burrow: <a href="https://www.wowhead.com/spell=409293/burrow" target="blank">Burrow</a>
+
 control_of_lava: <a href="https://www.wowhead.com/spell=204393" target="blank">Control of Lava</a>
 col: <a href="https://www.wowhead.com/spell=204393" target="blank">Control of Lava</a>
 
@@ -284,14 +287,35 @@ seasoned_winds: <a href="https://www.wowhead.com/spell=355630/seasoned-winds" ta
 
 skyfury_totem: <a href="https://www.wowhead.com/spell=204330" target="blank">Skyfury Totem</a>
 
-spectral_recovery: <a href="https://www.wowhead.com/spell=204261" target="blank">Spectral Recovery</a>
-
 static_field_totem: <a href="https://www.wowhead.com/spell=355580/static-field-totem" target="blank">Static Field Totem</a>
-
-swelling_waves: <a href="https://www.wowhead.com/spell=204264" target="blank">Swelling Waves</a>
 
 tidebringer: <a href="https://www.wowhead.com/spell=236501/tidebringer" target="blank">Tidebringer</a>
 
 traveling_storms: <a href="https://www.wowhead.com/spell=204403" target="blank">Traveling Storms</a>
 
 unleash_shield: <a href="https://www.wowhead.com/spell=356736/unleash-shield" target="blank">Unleash Shield</a>
+
+volcanic_surge: <a href="https://www.wowhead.com/spell=408572/volcanic-surge" target="blank">Volcanic Surge</a>
+
+
+# OLD TALENTS // DEPRECATED // REMOVED
+call_the_thunder: <a href="https://ptr.wowhead.com/spell=260897/call-the-thunder" target="blank">Call the Thunder</a>
+ctt: <a href="https://ptr.wowhead.com/spell=260897/call-the-thunder" target="blank">Call the Thunder</a>
+
+control_of_lava: <a href="https://shadowlands.wowhead.com/spell=204393" target="blank">Control of Lava</a>
+col: <a href="https://shadowlands.wowhead.com/spell=204393" target="blank">Control of Lava</a>
+
+earthen_rage: <a href="https://shadowlands.wowhead.com/spell=170374" target="blank">Earthen Rage</a>
+er: <a href="https://shadowlands.wowhead.com/spell=170374" target="blank">Earthen Rage</a>
+
+echoing_shock: <a href="https://shadowlands.wowhead.com/spell=320125" target="blank"> Echoing Shock</a>
+ecs: <a href="https://shadowlands.wowhead.com/spell=320125" target="blank"> Echoing Shock</a>
+
+exposed_elements: <a href="https://shadowlands.wowhead.com/spell=260694" target="blank">Exposed Elements</a>
+
+unlimited_power: <a href="https://shadowlands.wowhead.com/spell=260895" target="blank">Unlimited Power</a>
+up: <a href="https://shadowlands.wowhead.com/spell=260895" target="blank">Unlimited Power</a>
+
+#PVP
+spectral_recovery: <a href="https://www.wowhead.com/spell=204261" target="blank">Spectral Recovery</a>
+swelling_waves: <a href="https://www.wowhead.com/spell=204264" target="blank">Swelling Waves</a>
