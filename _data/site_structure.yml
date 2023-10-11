@@ -24,6 +24,8 @@ categories:
       url : /guide/mythic_plus/DF_season_1.html
 - title: Raids
   subcategories:
+    - title: Amirdrassil
+      url: /guide/raids/amirdrassil.html
     - title: Aberrus
       url: /guide/raids/aberrus.html
     - title: Vault of the Incarnates
