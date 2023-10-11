@@ -75,12 +75,12 @@ The tips and recommendations listed here are based on educated opinions from PTR
 ## Fight Breakdown:
 
 #### Damage:
-* Ensure to maximize your output whilst {{ site.data.raid.amirdrassil.uprooted_agony }} is active.
+* Use {{ site.data.talent.pw }} and {{ site.data.talent.sk }} whilst {{ site.data.raid.amirdrassil.uprooted_agony }} is active.
 * Cleave down {{ site.data.raid.amirdrassil.tainted_lasher }} and {{ site.data.raid.amirdrassil.tainted_treant }} (Mythic-only) whenever they are active.
 * Use {{ site.data.talent.swg }} and {{ site.data.talent.gow }} to maintain uptime whilst dealing with {{ site.data.raid.amirdrassil.controlled_burn }} and {{ site.data.raid.amirdrassil.shadowflame_cleave }}.
 
 #### Defensives:
-* Use {{ site.data.talent.as }} or healing consumables during {{ site.data.raid.amirdrassil.potent_fertilization }} before soaking {{ site.data.raid.amirdrassil.splintering_charcoal }} to minimize the damage income of {{ site.data.raid.amirdrassil.ember-charred }}.
+* Use {{ site.data.talent.as }} or healing consumables during {{ site.data.raid.amirdrassil.potent_fertilization }} before soaking {{ site.data.raid.amirdrassil.splintering_charcoal }} to minimize the damage income of {{ site.data.raid.amirdrassil.ember_charred }}.
 * Use {{ site.data.talent.ag }} during {{ site.data.raid.amirdrassil.uprooted_agony }} to maximize its value and give healers more options to deal damage during this damage amplification.
 * If talented, use {{ site.data.talent.earth_shield }} and {{ site.data.talent.healing_stream_totem }} as a movement filler throughout the fight.
 * Use {{ site.data.spell.healing_surge }} if necessary.
@@ -210,7 +210,7 @@ The tips and recommendations listed here are based on educated opinions from PTR
 
 #### Damage:
 * Keep {{ site.data.spell.fs }} up on all targets at all times.
-* Change your primary target accordingly to avoid {{ site.data.raid.amirdrassil.rebirth }}.
+* Change your primary target accordingly to avoid {{ site.data.raid.amirdrassil.rebirth }}. Prioritize your damage on {{ site.data.raid.amirdrassil.aerwynn }} and {{ site.data.raid.amirdrassil.pip }}.
 * Use {{ site.data.talent.swg }} and {{ site.data.talent.gow }} to maintain uptime whilst dealing with {{ site.data.raid.amirdrassil.emerald_winds }} or {{ site.data.raid.amirdrassil.barreling_charge }}.
 
 #### Defensives:
@@ -256,7 +256,7 @@ The tips and recommendations listed here are based on educated opinions from PTR
 
 #### Damage:
 * Focus down {{ site.data.raid.amirdrassil.fiery_treant }} and {{ site.data.raid.amirdrassil.ashen_treant }} whenever they are active.
-* Use {{ site.data.talent.swg }} to maintain uptime whilst dealing with {{ site.data.raid.amirdrassil.dream_blossom }}, {{ site.data.raid.amirdrassil.ashen_davastation }} (Mythic-only) or whilst kiting {{ site.data.raid.amirdrassil.scorching_roots }}.
+* Use {{ site.data.talent.swg }} to maintain uptime whilst dealing with {{ site.data.raid.amirdrassil.dream_blossom }}, {{ site.data.raid.amirdrassil.ashen_devastation }} (Mythic-only) or whilst kiting {{ site.data.raid.amirdrassil.scorching_roots }}.
 
 #### Defensives:
 * Use {{ site.data.talent.as }} or healing consumables during {{ site.data.raid.amirdrassil.raging_inferno }} and when targeted by {{ site.data.raid.amirdrassil.ashen_devastation }} (Mythic-only).
@@ -266,8 +266,8 @@ The tips and recommendations listed here are based on educated opinions from PTR
 
 #### Utilities:
 * Use {{ site.data.talent.wrt }} to help players affected by {{ site.data.raid.amirdrassil.dream_blossom }} dousing {{ site.data.raid.amirdrassil.burning_ground }} as fast as possible.
-* Use {{ site.data.talent.spirit_walk }} to free yourself from {{ site.data.raid.amirdrassil.scorching_bramblethorn }}.
-* Use {{ site.data.spell.wind_shear }} or {{ site.data.spell.capacitor_totem }} to interrupt {{ site.data.raid.amirdrassil.fiery_flourish }} from {{ site.data.raid.amirdrassil.fiery_treant }}.
+* Use {{ site.data.talent.spirit_walk }} or {{ site.data.talent.thunderous_paws }} to free yourself from {{ site.data.raid.amirdrassil.scorching_bramblethorn }}.
+* Use {{ site.data.spell.wind_shear }} or {{ site.data.talent.capacitor_totem }} to interrupt {{ site.data.raid.amirdrassil.fiery_flourish }} from {{ site.data.raid.amirdrassil.fiery_treant }}.
 
 </div>
 </div>
@@ -346,7 +346,7 @@ The tips and recommendations listed here are based on educated opinions from PTR
 ## Fight Breakdown
 
 #### Damage:
-* Ensure to maximize your output while benefiting from {{ site.data.raid.amirdrassil.ignited_essence }}.
+* Use {{ site.data.talent.pw }} and {{ site.data.talent.sk }} whilst benefiting from {{ site.data.raid.amirdrassil.ignited_essence }}.
 * Use {{ site.data.talent.swg }} and {{ site.data.talent.gow }} to maintain uptime whilst dealing with {{ site.data.raid.amirdrassil.world_in_flames }} and {{ site.data.raid.amirdrassil.flame_waves }}.
 
 #### Defensives:
@@ -374,13 +374,13 @@ The tips and recommendations listed here are based on educated opinions from PTR
 
 ### Talents:
 
-#### Fire:
+#### Lightning T30:
 <div class="iframe-holder">
 <iframe src="https://www.raidbots.com/simbot/render/talents/BYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoVSSLJUSSLRDRJQiEAAAAAgSAJlkgmASLJpECIRIBC?width=530&level=70" frameborder="0" width="530px" height="100%">
 </iframe>
 </div>
 
-#### Lightning:
+#### Fire T31:
 <div class="iframe-holder">
 <iframe src="https://www.raidbots.com/simbot/render/talents/BYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAg0SrIJtkgDIINKRJtkQOAAAAAAgSAJlkgmASLJpkSASkQgA?width=530&level=70" frameborder="0" width="530px" height="100%">
 </iframe>
@@ -391,8 +391,8 @@ The tips and recommendations listed here are based on educated opinions from PTR
 ## Fight Breakdown
 
 #### Damage:
-* Focus down {{ site.data.raid.amirdrassil.fiery_vines }} and {{ site.data.raid.amirdrassil.scorched_treant }} whenever they are active.
-* Use {{ site.data.talent.swg }} to maintain uptime whilst dealing with {{ site.data.raid.amirdrassil.fiery_growth }} and {{ site.data.raid.amirdrassil.firebeam }}.
+* Use {{ site.data.talent.sk }} and {{ site.data.talent.lmt }} to focus down {{ site.data.raid.amirdrassil.fiery_vines }} and {{ site.data.raid.amirdrassil.scorched_treant }} whenever they are active.
+* Use {{ site.data.talent.swg }} to maintain uptime whilst dealing with {{ site.data.raid.amirdrassil.fiery_growth }} and {{ site.data.raid.amirdrassil.fire_beam }}.
 
 #### Defensives:
 * Use {{ site.data.talent.as }} or healing consumables when targeted by {{ site.data.raid.amirdrassil.fiery_growth }} or during {{ site.data.raid.amirdrassil.supernova }} especially whenever you accumulate multiple stacks of {{ site.data.raid.amirdrassil.astral_heat }} (Mythic-only).
@@ -401,8 +401,8 @@ The tips and recommendations listed here are based on educated opinions from PTR
 * Use {{ site.data.spell.healing_surge }} if necessary.
 
 #### Utilities:
-* Use {{ site.data.talent.wrt }} to help players repositioning to either soak {{ site.data.raid.amirdrassil.fiery_growth }} or dodge {{ site.data.raid.amirdrassil.firebeam }}.
-* Use {{ site.data.talent.spirit_walk }} to free yourself from {{ site.data.raid.amirdrassil.mass_entanglement }}.
+* Use {{ site.data.talent.wrt }} to help players repositioning to either soak {{ site.data.raid.amirdrassil.fiery_growth }} or dodge {{ site.data.raid.amirdrassil.fire_beam }}.
+* Use {{ site.data.talent.spirit_walk }} or {{ site.data.talent.thunderous_paws }} to free yourself from {{ site.data.raid.amirdrassil.mass_entanglement }}.
 
 #### Additional Notes:
 * Having access to both {{ site.data.talent.go_with_the_flow }} and {{ site.data.externals.blessing_of_the_bronze }} provides the option of having {{ site.data.talent.spirit_walk }} ready for every single {{ site.data.raid.amirdrassil.mass_entanglement }}. Minimize usages in Mythic since using this will cause {{ site.data.raid.amirdrassil.scorched_treant }} to spawn!
@@ -438,8 +438,8 @@ The tips and recommendations listed here are based on educated opinions from PTR
 
 # Additional Resources
 
-* [Wowhead Elemental Shaman Aberrus Guide](PLACEHOLDER) by HawkCorrigan
-* [Icy-Veins Elemental Shaman Aberrus Tips](PLACEHOLDER) by Stormy
+* [Wowhead Elemental Shaman Amirdrassil Guide](PLACEHOLDER) by HawkCorrigan
+* [Icy-Veins Elemental Shaman Amirdrassil Tips](PLACEHOLDER) by Stormy
 - [Warcraft Logs](https://www.warcraftlogs.com/)
-- [Aberrus, the Shadowed Crucible Loot Overview](PLACEHOLDER)
+- [Amirdrassil, the Dream’s Hope Loot Overview](PLACEHOLDER)
 * [Raid Subcreation](PLACEHOLDER)
