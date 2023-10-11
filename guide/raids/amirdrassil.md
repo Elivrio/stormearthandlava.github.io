@@ -419,8 +419,10 @@ The tips and recommendations listed here are based on educated opinions from PTR
 <div id="fyrakk-collapse" class="collapse" aria-labelledby="fyrakk" data-parent="#accordion">
 <div class="card-body" markdown="1">
 
-## Soon™ 
+## Soon™
 
+</div>
+</div>
 </div>
 </div>
 </div>
