@@ -2,7 +2,7 @@
 layout: post
 title: Open Letter from Elivrio
 #            dd/mm/yyyy
-last_update: 30/10/2023
+last_update: 31/10/2023
 excerpt: The state of Elemental Shaman
 # author: Elivrio
 toc: true
@@ -102,13 +102,13 @@ The problem mostly comes from two choice nodes:
 
 Each of them actually really improve their respective damage profile and having to choose between them, without any sort of compensation in the other profile, is really pretty damning.
 
-Before the recent change, {{ site.data.spell.splinter }} gave up to 60% haste in AoE, down to 10% in ST. It will now, {{ site.data.spell.splinter }} will grant more haste in ST (20%) but less in AoE (40%). Meanwhile, {{ site.data.spell.ps }} gives a decent number of {{ site.data.spell.lvs }} which is almost be useless in AoE. This change will boosts the ST of the builds using {{ site.data.spell.splinter }} without harming their AoE too much. {{ site.data.spell.ps }} stays the single target talent while {{ site.data.spell.splinter }} covers all of the other damage profiles. This choice node is now way less of a problem than it used to be.
+Before the recent change, {{ site.data.spell.splinter }} gave up to 60% haste in AoE, down to 10% in ST. It will now grant more haste in ST (20%) but less in AoE (40%). {{ site.data.spell.ps }}, for its part, gives a decent number of {{ site.data.spell.lvs }} which is almost be useless in AoE. This change will boosts the ST of builds using {{ site.data.spell.splinter }} without harming their AoE too much. {{ site.data.spell.ps }} stays the single target talent while {{ site.data.spell.splinter }} covers all of the other damage profiles. This choice node is now way less of a problem than it used to be.
 
 On the other hand, {{ site.data.spell.wlr }} and {{ site.data.spell.sfd }} are still an issue, only alleviated by the new tier set. Similarly to {{ site.data.spell.ps }}, {{ site.data.spell.wlr }} gives a decent number of {{ site.data.spell.lvs }} which is bad in AoE. On the flip side {{ site.data.spell.sfd }} scales quadratically as you add more target, which is real good at 6 targets and real bad with a single one.
 
 Thanks to the new tier set, {{ site.data.spell.fs }}'s damage became secondary and {{ site.data.spell.lvb }} picked up the stage thanks to the amount of duplicated ones we can throw out on multiple targets. It became quite easy to skip {{ site.data.spell.sfd }} in favor of {{ site.data.spell.wlr }}. In fact, since we spec out of {{ site.data.spell.ps }} in AoE situations, we would be relying on random {{ site.data.spell.lvs }} procs if it weren't for {{ site.data.spell.wlr }}. Having a reliable way to get {{ site.data.spell.lvb }} when we need it is very important. So yeah, the choice node became "better" because {{ site.data.spell.sfd }} isn't really an option anymore.
 
-It's very important to understand that the 31 tier set fixes problems that are bad and omnipresent when it's not there. It could be a good idea to consider incorporating some of the things done by the tier into talents when the next expansion starts rolling in.
+It's very important to mention that the 31 tier set fixes problems that are bad and omnipresent when it's not there. It could be a good idea to consider incorporating some of the things done by the tier into talents when the next expansion starts rolling in.
 
 <hr>
 
@@ -119,9 +119,9 @@ It's very important to understand that the 31 tier set fixes problems that are b
 Lightning ST builds center around {{ site.data.spell.lb }} and empowering for the weak maelstrom builder spell all the way to be our main source of damage.
 This is achieved via a combination of buffs and debuffs that you can stack on top of each other, making {{ site.data.spell.lb }} hit like a truck. Those auras are {{ site.data.spell.sop }}, {{ site.data.spell.sk }}, {{ site.data.spell.potm }} and {{ site.data.spell.e_shocks }}.
 
-Among them, {{ site.data.spell.sk }} is probably the most predictable, fun to play around and rewarding to play around correctly. It requires resource planning and timing to make it work perfectly. It should still be noted that the T30 tier set giving us a free {{ site.data.spell.sk }} was a nightmare to play around and to track. There was no in game visual or mechanic to prepare for an incoming proc. It procced on a static timer that we had no access to and we had to rely on a Weakaura that just started a clock whenever it **thought** the tier had procced. You just had to pray it was correct. And Awful times.
+Among them, {{ site.data.spell.sk }} is probably the most predictable, rewarding and fun to play around correctly. It requires resource planning and timing to make it work perfectly. It should still be noted that the T30 tier set giving us a free {{ site.data.spell.sk }} was a nightmare to play with and to track. There was no in-game visual or mechanic to prepare for an incoming proc. It rolled on a static timer that we had no access to. The only way to track it was to rely on a Weakaura that just started a clock whenever it **thought** the tier had procced. You just had to pray it was correct. And sometimes it just wasn't.
 
-Back to the subject at hand, I should now mention that every overloads generated by a {{ site.data.spell.lb }} will fully benefit from the buffs applied to the original cast. Meaning you want to pair {{ site.data.spell.sk }} with as many reliable overloads proc as possible to buff every single one of them. This makes {{ site.data.spell.sop }} a borderline required buff when using {{ site.data.spell.sk }}. With it, you add two guaranteed overloads on top of your next {{ site.data.spell.lb }}. Pairing {{ site.data.spell.sk }} with {{ site.data.spell.sop }} is a *condition sine qua non* to do good DPS in lightning build. It's also worth to note that it's very easily to consume {{ site.data.spell.sop }} with another spell, losing a lot of potential damage in the process.
+Anyway, back to the subject at hand, I should now mention that every overloads generated by a {{ site.data.spell.lb }} will fully benefit from the buffs applied to the original cast. Meaning you want to pair {{ site.data.spell.sk }} with as many reliable overloads proc as possible to buff every single one of them. This makes {{ site.data.spell.sop }} a borderline required buff when using {{ site.data.spell.sk }}. With it, you add two guaranteed overloads on top of your next {{ site.data.spell.lb }}. Pairing {{ site.data.spell.sk }} with {{ site.data.spell.sop }} is a *condition sine qua non* to do good DPS in lightning build. It's also worth to note that it's very easy to consume {{ site.data.spell.sop }} with another spell, losing a lot of potential damage in the process.
 
 Similarly, any {{ site.data.spell.potm }} proc that happen before a {{ site.data.spell.sk }} window will add a lot of damage. Sadly, there's no real way to reliably proc {{ site.data.spell.potm }}, and you can't wait for it to proc or you might lose a potential {{ site.data.spell.sk }} cast by delaying it.
 
@@ -131,9 +131,9 @@ Among those 4 auras, 3 of them need to be actively played around, and 1 among th
 
 {{ site.data.spell.lvb }} on its own isn't very good for Lightning build. But it's very valuable to cast it nonetheless to fish for {{ site.data.spell.potm }} procs. The best way to include it in the rotation is to use it to buff {{ site.data.spell.eb }} with {{ site.data.spell.mote }}. If we could, we would probably use it to further buff {{ site.data.spell.lb }} but you cannot get {{ site.data.spell.sop }} without consuming {{ site.data.spell.mote }}. So we have to be content with buffing {{ site.data.spell.eb }}.
 
-To get reliable {{ site.data.spell.lvs }}, we use {{ site.data.spell.wlr }} and hold {{ site.data.spell.lvs }} until your next {{ site.data.spell.eb }} cast. This more often that not implies ignoring {{ site.data.spell.lvb }} for 5 to 8 seconds, which is very unintuitive and rebuts many long time players.
+To get reliable {{ site.data.spell.lvs }}, we use {{ site.data.spell.wlr }} and hold {{ site.data.spell.lvs }} until your next {{ site.data.spell.eb }} cast. This more often than not implies ignoring {{ site.data.spell.lvs }} for 5 to 8 seconds, which is very unintuitive and rebuts many long time players.
 
-In any way, it's the best way to maximize {{ site.data.spell.eb }}'s damage while efficiently fishing for {{ site.data.spell.potm }} procs. You can also guarantee that your {{ site.data.spell.potm }} will always be used alongside {{ site.data.spell.sop }}.
+In any way, it's the best way to maximize {{ site.data.spell.eb }}'s damage while efficiently fishing for {{ site.data.spell.potm }} procs. You can also guarantee that your {{ site.data.spell.potm }} will always be used alongside {{ site.data.spell.sop }} that way.
 
 All of this was a lot of information, let me do a small recap:
 - You want {{ site.data.spell.e_shocks }} to be active on your target as much as possible,
@@ -177,7 +177,7 @@ In the previous fire section, I touched upon ST vs AoE without really talking ab
 
  Mythic Kurog Grimtotem was mostly a 2 target fight. You had the boss and a big elemental up for the majority of the fight. Elemental was one of the classes that did the least damage on that fight simply because we don't really gain anything from a second target. You gain a second {{ site.data.spell.fs }} target, more {{ site.data.spell.lvs }} procs, double the stacking speed of {{ site.data.spell.magma_chamber }}, and additional duplicated {{ site.data.spell.lvb }} from {{ site.data.spell.pw }}. That's it. In lightning builds you use {{ site.data.spell.cl }} instead of {{ site.data.spell.lb }} at two targets unless you have {{ site.data.spell.sop }}, but since {{ site.data.spell.cl }} scales quadratically, it sucks at 2/3 targets.
 
-The only good spell at that target range is {{ site.data.spell.frs }} when it's buffed by {{ site.data.spell.if }} while talented into {{ site.data.spell.els }}. But since you want to use it as a debuff most of the time, you cannot spam it anyway and it's not even that good.
+The only good spell at that target range is {{ site.data.spell.frs }} when it's buffed by {{ site.data.spell.if }} while talented into {{ site.data.spell.e_shocks }}. But since you want to use it as a debuff most of the time, you cannot spam it anyway and it's not even that good.
 
 To be completely honest, I know the cleave is a problem for Elemental but I'm not sure how to describe the problem. Elemental simply doesn't really have cleave. If you look at the damage scaling of Elemental vs Enhancement in 10.1, it's just aberrant.
 I know some classes have different damage profiles and you cannot be good at everything. But there's next to nothing to say about Elemental's cleave. It's just bad, especially at 2 targets.
@@ -211,7 +211,7 @@ More generally, the usual complaints of the community often center around three 
 
 Firstly, the gameplay of {{ site.data.spell.eb }} is often disliked. I personally enjoy it. I like having a big spell that can crits for 450k every once in a while. But it's also true that the casted gameplay of {{ site.data.spell.eb }} compared to the freedom of movement that was {{ site.data.spell.es }} for many years can feel weird for long time Elemental Shaman players.
 
-Secondly, {{ site.data.spell.eq }} is always a contention point in the community. It does low damage per tick and you need mobs to stay in it for the full duration. Since {{ site.data.spell.eq }} visual isn't great, tanks are prone to often kite out of it, essentially negating our AoE spender. The problem is further amplified with {{ site.data.spell.eogs }}. A tank kiting out of a buff {{ site.data.spell.eq }} just fells even worse. In my opinion, there are a lot of ways to make it less painful, but I will list a few:
+Secondly, {{ site.data.spell.eq }} is always a contention point in the community. It does low damage per tick and you need mobs to stay in it for the full duration. Since {{ site.data.spell.eq }} visual isn't great, tanks are prone to often kite out of it, essentially negating our AoE spender. The problem is further amplified with {{ site.data.spell.eogs }}. A tank kiting out of a buffed {{ site.data.spell.eq }} just feels even worse. In my opinion, there are a lot of ways to make it less painful, but I will list a few:
 - Increase the width of the effect,
 - Reduce the duration of the effect for the same amount of damage.
 - Mostly frontload the damage of the spell, then do residual damage while in the effect (like 80/20 split),

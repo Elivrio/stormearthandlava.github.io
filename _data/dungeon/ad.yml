@@ -1,0 +1,107 @@
+# Basic version of an "automated" tooltip generator for authors, posts, pages.
+# Copy either of the following strings if you want to add a new tooltip.
+#
+# External link with tooltip:
+# SHORTCUT: <a href="https://www.wowhead.com/TYPE=ID" target="blank">PLAIN_NAME</a>
+#
+# Non-external link but with wowhead icon next to the tooltip:
+# SHORTCUT: <a href="#" data-wowhead="TYPE=ID">PLAIN_NAME</a>
+#
+# Replace SHORTCUT    with the name you want
+# Replace TYPE        with "spell" or "item"
+# Replace ID          with the appropriate id
+# Replace PLAIN_NAME  with the appropriate base name
+
+example: <a href="https://www.wowhead.com/item=152838" target="blank">Stormsteel Axe</a>
+
+# Atal'Dazzar
+
+# Middle room thrash
+feasting_skyscreamer: <a href="https://www.wowhead.com/ptr-2/npc=128434" target="blank">Feasting Skyscreamer</a>
+terrifying_screech: <a href="https://www.wowhead.com/ptr-2/spell=255041" target="blank">Terrifying Screech</a> # Tremor or Kick
+
+toxic_saurid: <a href="https://www.wowhead.com/ptr-2/npc=128435" target="blank">Toxic Saurid</a>
+leaping_thrash: <a href="https://www.wowhead.com/ptr-2/spell=251187" target="blank">Leaping Thrash</a> # Charge and AoE 3 yards
+
+# the two dinos and dinomancer
+
+# Rezan
+rezan: <a href="https://www.wowhead.com/ptr-2/npc=122963" target="blank">Rezan</a>
+devour: <a href="https://www.wowhead.com/ptr-2/spell=255421" target="blank">Devour</a> # Pray
+pursuit: <a href="https://www.wowhead.com/ptr-2/spell=257407" target="blank">Pursuit</a> # run away
+serrated_teeth: <a href="https://www.wowhead.com/ptr-2/spell=255434" target="blank">Serrated Teeth</a> # Tank DoT
+tail: <a href="https://www.wowhead.com/ptr-2/spell=255372" target="blank">Tail</a> # Don't be behind boss
+terrifying_visage: <a href="https://www.wowhead.com/ptr-2/spell=255371" target="blank">Terrifying Visage</a> # LoS or Tremor
+
+# Vol'kaal thrash
+reanimated_honor_guard: <a href="https://www.wowhead.com/ptr-2/npc=127757" target="blank">Reanimated Honor Guard</a>
+rending_maul: <a href="https://www.wowhead.com/ptr-2/spell=255814" target="blank">Rending Maul</a> # Damage on Tank
+festering_eruption: <a href="https://www.wowhead.com/ptr-2/spell=255620" target="blank">Festering Eruption</a> # explosion on death and poison DoT
+rotting_decay: <a href="https://www.wowhead.com/ptr-2/spell=256959" target="blank">Rotting Decay</a> # Permanent DoT
+
+shadowblade_stalker: <a href="https://www.wowhead.com/ptr-2/npc=122970" target="blank">Shadowblade Stalker</a>
+venom-tipped_blade: <a href="https://www.wowhead.com/ptr-2/spell=252666" target="blank">Venom-Tipped Blade</a> # damage on AA
+venomfang_strike: <a href="https://www.wowhead.com/ptr-2/spell=252687" target="blank">Venomfang Strike</a> # strike on tank and apply Poison
+fan_of_knife: <a href="https://www.wowhead.com/ptr-2/spell=427000" target="blank">Fan of Knives</a> # 40yds AoE
+waylaying_jab: <a href="https://www.wowhead.com/ptr-2/spell=252692" target="blank">Waylaying Jab</a> # Sneak attack and stun => AoE to unstealth
+
+shieldbearer_of_zul: <a href="https://www.wowhead.com/ptr-2/npc=127879" target="blank">Shieldbearer of Zul</a>
+shield_bash: <a href="https://www.wowhead.com/ptr-2/spell=273185" target="blank">Shield Bash</a> # don't be in melee
+bulwark_of_juju: <a href="https://www.wowhead.com/ptr-2/spell=258653" target="blank">Bulwark of Juju</a> # Dome of protection => Hard CC
+
+zanchuli_witch_doctor: <a href="https://www.wowhead.com/ptr-2/npc=122969" target="blank">Zanchuli Witch-Doctor</a>
+unstable_hex: <a href="https://www.wowhead.com/ptr-2/spell=279118" target="blank">Unstable Hex</a> # kick, curse dispell or spread to avoid chaining
+venom_blast: <a href="https://www.wowhead.com/ptr-2/spell=252923" target="blank">Venom Blast</a> # kick
+
+# Vol'kaal
+volkaal: <a href="https://www.wowhead.com/ptr-2/npc=122965" target="blank">Vol'kaal</a>
+lingering_nausea: <a href="https://www.wowhead.com/ptr-2/spell=250372" target="blank">Lingering Nausea</a> # Stacking Permanent DoT
+noxious_stench: <a href="https://www.wowhead.com/ptr-2/spell=259572" target="blank">Noxious Stench</a> # Instant kick or massive DoT
+rapid_decay: <a href="https://www.wowhead.com/ptr-2/spell=250241" target="blank">Rapid Decay</a> # Spawn damage pools
+toxic_leap: <a href="https://www.wowhead.com/ptr-2/spell=250258" target="blank">Toxic Leap</a> # Dodge
+reanimation_totem_boss: <a href="https://www.wowhead.com/ptr-2/npc=125977" target="blank">Reanimation Totem</a> # Kill to remove immune
+reanimate: <a href="https://www.wowhead.com/ptr-2/spell=259531" target="blank">Reanimate</a> # Kill to remove immune
+
+# Priestess Alun'za Trash
+dazarai_colossus: <a href="https://www.wowhead.com/ptr-2/npc=122984" target="blank">Dazar'ai Colossus</a>
+soulburn: <a href="https://www.wowhead.com/ptr-2/spell=254959" target="blank">Soulburn</a> # Channeled beam that slow, can you remove it?
+soulforged_construct: <a href="https://www.wowhead.com/ptr-2/spell=254958" target="blank">Soulforged Construct</a> # Kill alone or purge
+gathered_souls: <a href="https://www.wowhead.com/ptr-2/spell=254974" target="blank">Gathered Souls</a> # Purge
+
+dazarai_confessor: <a href="https://www.wowhead.com/ptr-2/npc=122973" target="blank">Dazar'ai Confessor</a>
+bwonsamdis_mantle: <a href="https://www.wowhead.com/ptr-2/spell=253548" target="blank">Bwonsamdi's Mantle</a> # CC immunity bubble => kick
+mending_word: <a href="https://www.wowhead.com/ptr-2/spell=253517" target="blank">Mending Word</a> # heal => kick
+
+dazarai_honor_guard: <a href="https://www.wowhead.com/ptr-2/npc=127799" target="blank">Dazar'ai Honor Guard</a>
+fervent_strike: <a href="https://www.wowhead.com/ptr-2/spell=256138" target="blank">Fervent Strike</a> # tank damage
+
+dazarai_juggernaut: <a href="https://www.wowhead.com/ptr-2/npc=122971" target="blank">Dazar'ai Juggernaut</a>
+fanatics_rage: <a href="https://www.wowhead.com/ptr-2/spell=255824" target="blank">Fanatic's Rage</a> # Enrage dispell / Kick
+merciless_assault: <a href="https://www.wowhead.com/ptr-2/spell=253239" target="blank">Merciless Assault</a> # Charge and AoE 8 yards
+
+dazarai_augur: <a href="https://www.wowhead.com/ptr-2/npc=122972" target="blank">Dazar'ai Augur</a>
+fiery_enchant: <a href="https://www.wowhead.com/ptr-2/spell=253583" target="blank">Fiery Enchant</a> # interrupt or Juggernaut will own you
+wildfire: <a href="https://www.wowhead.com/ptr-2/spell=253562" target="blank">Wildfire</a> # interrupt, maybe magic dispel
+
+gilded_priestess: <a href="https://www.wowhead.com/ptr-2/npc=132126" target="blank">Gilded Priestess</a>
+# Same blood pool and transfusion as the boss
+
+# Priestess Alun'za
+priestess_alunza: <a href="https://www.wowhead.com/ptr-2/npc=122967" target="blank">Priestess Alun'za</a>
+gilded_claws: <a href="https://www.wowhead.com/ptr-2/spell=255579" target="blank">Gilded Claws</a> # Debuff on tank
+molten_gold: <a href="https://www.wowhead.com/ptr-2/spell=255591" target="blank">Molten Gold</a> # Big DoT
+transfusion: <a href="https://www.wowhead.com/ptr-2/spell=255577" target="blank">Transfusion</a> # Gold suck
+transfusion_red: <a href="https://www.wowhead.com/ptr-2/spell=255836" target="blank">Transfusion</a> # Red suck
+spirit_of_gold: <a href="https://www.wowhead.com/ptr-2/npc=131009" target="blank">Spirit of Gold</a> # CC
+tainted_blood_pool: <a href="https://www.wowhead.com/spell=260670" target="blank">Tainted Blood</a> # Pool of Blood
+tainted_blood: <a href="https://www.wowhead.com/spell=255558" target="blank">Tainted Blood</a> # DoT for suck
+
+# Yazma
+yazma: <a href="https://www.wowhead.com/ptr-2/npc=122968" target="blank">Yazma</a>
+skewer: <a href="https://www.wowhead.com/ptr-2/spell=249919" target="blank">Skewer</a> # Burst on tank
+soulfeast: <a href="https://www.wowhead.com/ptr-2/spell=256577" target="blank">Soulfeast</a> # if image reaches boss, damage
+soulspawn: <a href="https://www.wowhead.com/ptr-2/npc=125828" target="blank">Soulspawn</a> # NPC images
+soulrend: <a href="https://www.wowhead.com/ptr-2/spell=249923" target="blank">Soulrend</a> # creates images and deal damage
+wracking_pain: <a href="https://www.wowhead.com/ptr-2/spell=250096" target="blank">Wracking Pain</a> # Kick or curse dispell
+echoes_of_shadra: <a href="https://www.wowhead.com/ptr-2/spell=250050" target="blank">Echoes of Shadra</a> # Spiders around the room
+echo_of_shadra: <a href="https://www.wowhead.com/ptr-2/npc=126734" target="blank">Echo of Shadra</a> # NPC Spider
