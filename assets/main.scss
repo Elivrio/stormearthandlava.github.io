@@ -509,14 +509,23 @@ div.dungeon-header.vp {
   background-image: url('/assets/img/guide/dungeons/cataclysm/vortex_pinnacle.png')
 }
 
+div.dungeon-header.tott {
+  background-image: url('/assets/img/guide/dungeons/cataclysm/throne_of_the_tides.jpg')
+}
 
 // MoP Dungeons
 div.dungeon-header.tjs {
     background-image: url('/assets/img/guide/dungeons/mists_of_pandaria/temple_of_the_jade_serpent.jpg')
 }
 
+// WoD Dungeons
+
 div.dungeon-header.sbg {
     background-image: url('/assets/img/guide/dungeons/warlords_of_draenor/shadowmoon_burial_grounds.jpg')
+}
+
+div.dungeon-header.eb {
+    background-image: url('/assets/img/guide/dungeons/warlords_of_draenor/the_everbloom.jpg')
 }
 
 // legion Dungeons
@@ -530,6 +539,14 @@ div.dungeon-header.hov {
 
 div.dungeon-header.nl {
     background-image: url('/assets/img/guide/dungeons/legion/neltharions_lair.png')
+}
+
+div.dungeon-header.brh {
+    background-image: url('/assets/img/guide/dungeons/legion/black_rook_hold.jpg')
+}
+
+div.dungeon-header.dt {
+    background-image: url('/assets/img/guide/dungeons/legion/darkheart_thicket.jpg')
 }
 
 // BfA Dungeons
@@ -571,24 +588,6 @@ div.dungeon-header.ur {
 
 div.dungeon-header.wm {
   background-image: url('/assets/img/guide/dungeons/battle_for_azeroth/waycrest.png')
-}
-
-// SL Dungeons
-div.dungeon-header.gambit {
-  background-image: url('/assets/img/guide/dungeons/shadowlands/gambit.png')
-}
-
-div.dungeon-header.streets {
-  background-image: url('/assets/img/guide/dungeons/shadowlands/streets.png')
-}
-
-// SL Dungeons
-div.dungeon-header.gambit {
-  background-image: url('/assets/img/guide/dungeons/shadowlands/gambit.png')
-}
-
-div.dungeon-header.streets {
-  background-image: url('/assets/img/guide/dungeons/shadowlands/streets.png')
 }
 
 // SL Dungeons
@@ -663,6 +662,14 @@ div.dungeon-header.no {
 
 div.dungeon-header.udm {
     background-image: url('/assets/img/guide/dungeons/dragonflight/uldaman.png')
+}
+
+div.dungeon-header.dotigf {
+    background-image: url('/assets/img/guide/dungeons/dragonflight/galakrond_fall.jpg')
+}
+
+div.dungeon-header.dotimr {
+    background-image: url('/assets/img/guide/dungeons/dragonflight/dawn_of_the_infinite.png')
 }
 
 // BfA raids

@@ -18,10 +18,12 @@ categories:
       url: /guide/general/trinkets.html
 - title: Mythic+
   subcategories:
-    - title : DF Season 2
+    - title: DF Season 3
+      url: /guide/mythic_plus/DF_season_3.html
+    - title: DF Season 2
       url: /guide/mythic_plus/DF_season_2.html
-    - title : DF Season 1
-      url : /guide/mythic_plus/DF_season_1.html
+    - title: DF Season 1
+      url: /guide/mythic_plus/DF_season_1.html
 - title: Raids
   subcategories:
     - title: Aberrus
