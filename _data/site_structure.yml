@@ -4,10 +4,14 @@ categories:
 
 - title: Guide
   subcategories:
-    - title: Builds
-      url: /guide/general/builds.html
     - title: F.A.Q.
       url: /guide/general/faq.html
+    - title: Class Tree
+      url: /guide/general/class_tree.html
+    - title: Popular Builds
+      url: /guide/general/builds.html
+    #- title: Elemental Interactions
+    #  url: /guide/general/specific_interation.html
     - title: Consumables
       url: /guide/general/consumables.html
     - title: Gearing
