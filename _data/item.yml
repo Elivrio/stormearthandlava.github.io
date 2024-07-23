@@ -30,6 +30,33 @@ archaeology: <a href="https://www.wowhead.com/skill=794/archaeology" target="bla
 cooking: <a href="https://www.wowhead.com/skill=185/cooking" target="blank">Cooking</a>
 fishing: <a href="https://www.wowhead.com/skill=356/fishing" target="blank">Fishing</a>
 
+# TWW Flasks
+
+tww_flask_all: <a href="https://www.wowhead.com/beta/item=212283/flask-of-alchemical-chaos" target="blank">Flask of Alchemical Chaos</a>
+tww_flask_crit: <a href="https://www.wowhead.com/beta/item=212271/flask-of-tempered-aggression" target="blank">Flask of Tempered Aggression</a>
+tww_flask_hast: <a href="https://www.wowhead.com/beta/item=212274/flask-of-tempered-swiftness" target="blank">Flask of Tempered Swiftness</a>
+tww_flask_mast: <a href="https://www.wowhead.com/beta/item=212280/flask-of-tempered-mastery" target="blank">Flask of Tempered Mastery</a>
+tww_flask_vers: <a href="https://www.wowhead.com/beta/item=212277/flask-of-tempered-versatility" target="blank">Flask of Tempered Versatility</a>
+
+# DF Potions
+
+tww_pot_tempered: <a href="https://www.wowhead.com/beta/item=212265/tempered-potion" target="blank">Tempered Potion</a>
+tww_pot_focus: <a href="https://www.wowhead.com/beta/item=212259/potion-of-unwavering-focus" target="blank">Potion of Unwavering Focus</a>
+tww_hpot: <a href="https://www.wowhead.com/beta/item=211880/algari-healing-potion" target="blank">Algari Healing Potion</a>
+
+
+
+
+
+
+
+
+
+
+
+
+# ------------ OLD STUFF ------------
+
 # DF Phials
 phial_eits: <a href="https://www.wowhead.com/item=191320/phial-of-the-eye-in-the-storm" target="blank">Phial of the Eye in the Storm</a>
 phial_sa: <a href="https://www.wowhead.com/item=191321/phial-of-still-air" target="blank">Phial of Still Air</a>

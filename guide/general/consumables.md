@@ -3,40 +3,48 @@ layout: page
 title: Consumables
 last_update: 02/05/2023
 game_version: 10.1.0 Dragonflight
-toc: true
+toc: false
 big_article: false
 ---
 
-## Phial
-* **Raid**
-  1. {{ site.data.item.phial_ci }} would be the best phial in raid if you could stand still for the majority of the fight. However, it is a very difficult to keep uptime in most raid encounters.
-  1. {{ site.data.item.phial_tv }} is the best realistic pick in raid. {{ site.data.item.phial_tv }} also boosts our survivability by a non-negligible amount.
+<hr> 
 
-* **Mythic+**
-  * {{ site.data.item.phial_tv }} is the best phial for mythic +, providing a higher damage gain than {{ site.data.item.phial_gf }} and helping you with survivability as well.
+# Phial
+#### Raid
+1. {{ site.data.item.phial_ci }} would be the best phial in raid if you could stand still for the majority of the fight. However, it is a very difficult to keep uptime in most raid encounters.
+1. {{ site.data.item.phial_tv }} is the best realistic pick in raid. {{ site.data.item.phial_tv }} also boosts our survivability by a non-negligible amount.
 
-## Food
+#### Mythic +
+* {{ site.data.item.phial_tv }} is the best phial for mythic +, providing a higher damage gain than {{ site.data.item.phial_gf }} and helping you with survivability as well.
+
+<hr>
+# Food
 1. {{ site.data.item.food_feast_kaluak }} or {{ site.data.item.food_feast_draconic }}.
 1. {{ site.data.item.food_dde }} or {{ site.data.item.food_ffc }}
 
-## Damage Potion
+<hr>
+# Damage Potion
 1. {{ site.data.item.potion_up }} will be your choice where it is available.
 1. {{ site.data.item.potion_p }} will be your choice where {{ site.data.item.potion_up }} is not available.
 1. {{ site.data.item.potion_bp }} and {{ site.data.item.potion_sd }} may be considered in specific circumstances that suit them, use your best judgement!
 
-## Health Potion
+<hr>
+# Health Potion
 * {{ site.data.item.potion_rhp }} will be the best choice.
 
-## Rune
+<hr>
+# Rune
 * {{ site.data.item.rune_haste }} when you do not use {{ site.data.spell.imp_ftw }}.
 
-## Gems
+<hr>
+# Gems
 Sim for your best stat where choices are available.
 1. Make sure to have an Illimited Gem, i.e. {{ site.data.item.gem_p_haste }}, equipped.
 1. For both Single Target and AoE, use {{ site.data.item.gem_haste_crit }} or {{ site.data.item.gem_crit_haste }}.
 1. **Do not overthink your gems.** Yes, they do have an impact on performances. But ultimately, the overall effect they have is minor compared to your gameplay. As long as you socket appropriately to your personal goals and content, you will be fine!
 
-## Enchants
+<hr>
+# Enchants
 
 <div class="table-20-40-40" markdown="1">
 

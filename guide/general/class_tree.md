@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Builds
-last_update: 02/05/2023
-game_version: 10.1.0 Dragonflight
+title: Class Tree
+last_update: 22/07/2024
+game_version: 11.0.0 The War Within
 toc: true
 big_article: true
 ---

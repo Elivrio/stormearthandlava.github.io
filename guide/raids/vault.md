@@ -4,8 +4,8 @@ title: "Vault of the Incarnates Guide"
 last_update: 22/03/2023
 game_version: 10.0.7 Dragonflight
 author: Sheffy, Elivrio
-toc: false
-big_article: false
+toc: true
+big_article: true
 ---
 
 # Introduction
