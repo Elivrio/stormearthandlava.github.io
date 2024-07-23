@@ -431,6 +431,10 @@ ancestral_defense: <a href="https://www.wowhead.com/spell=382947/ancestral-defen
 
 call_of_fire: <a href="https://www.wowhead.com/spell=378255/call-of-fire" target="blank">Call of Fire</a>
 
+# DF Call of Thunder
+call_of_thunder: <a href="https://www.wowhead.com/spell=378241/call-of-thunder" target="blank">Call of Thunder</a>
+
+# SL Call of Thunder
 call_the_thunder: <a href="https://ptr.wowhead.com/spell=260897/call-the-thunder" target="blank">Call the Thunder</a>
 ctt: <a href="https://ptr.wowhead.com/spell=260897/call-the-thunder" target="blank">Call the Thunder</a>
 
