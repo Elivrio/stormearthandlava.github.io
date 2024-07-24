@@ -10,8 +10,8 @@ categories:
       url: /guide/general/class_tree.html
     - title: Popular Builds
       url: /guide/general/builds.html
-    #- title: Elemental Interactions
-    #  url: /guide/general/specific_interation.html
+    - title: Elemental Interactions
+      url: /guide/general/specific_interation.html
     - title: Consumables
       url: /guide/general/consumables.html
     - title: Gearing

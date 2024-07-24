@@ -14,7 +14,7 @@ We have the luxury of having a very versatile Class tree that can basically adap
 
 With that being said, let's look at the content of the Class tree: 
 
-<img src="/assets/img/guide/class_Tree.png" alt="Lightning vs Fire in the Spec Tree" class="center">
+<img src="/assets/img/guide/class_Tree.png" alt="Class Tree Classification" class="center">
 
 ## Red nodes: Always talent them
 - {{ site.data.spell.lvb }} and {{ site.data.spell.cl }} are points given to us as Elemental Shaman
