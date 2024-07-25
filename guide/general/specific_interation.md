@@ -13,27 +13,24 @@ This page aims to display and discuss the recommended and most widely-used Build
 In practical terms we cannot account for every build variation and effort has been largely focused on the highest performing / most popular builds. If you find something that you feel works or performs better than what is listed here feel free to contact the team on [Storm, Earth & Lava Discord](https://discord.gg/y5dUf3PWrU) or [Earthshrine #Elemental Channel](https://discord.gg/earthshrine)
 
 <hr>
-# Deeply Rooted Elements
+# Lava Burst
+Probably the most basic interaction but you have to start this guide somewhere: {{ site.data.spell.lvb }} crit are calculated on-hit and not on cast. Which means you can cast {{ site.data.spell.lvb }} into {{ site.data.spell.fs }} and guarantee that {{ site.data.spell.lvb }} will crit.
 
-Casting {{ site.data.spell.lava_burst }} has an ever increasing chance to trigger {{ site.data.spell.ascendance }}, starting with a double 0% chance then incrementing by 1% per cast (0%, 0%, 1%, 2%, 3%, 4%, ...). This averages out to the 7% chance stated by the tooltip.
-
-<img src="/assets/img/guide/DRE_proc_chart.png" alt="DRE proc Chart">
-
-This behaviour implies low chance of back to back procs, as well as low chance of no procs for a extended period. 
-
-What becomes apparent is that you can and should play around your current proc chance. Let's say you're at the end of a mythic+ pack and your {{ site.data.spell.dre }} counter is at 11%. You're likely to proc {{ site.data.spell.asc }} in your next 3 to 5 {{ site.data.spell.lvb }} casts. If you stop casting {{ site.data.spell.lvb }} until next pack, you increase your chance of proccing {{ site.data.spell.asc }} when it matters in the next pack instead of proccing it on almost dead mobs.
-
-This weakaura (must include link, ping me in Discord if I forgot to update this line) will help you track your {{ site.data.spell.dre }} counter in game and play around it.
+This is especially useful on pre-pulls, where you should cast {{ site.data.spell.lvb }} 1.8s before pull then {{ site.data.spell.fs }} on pull.
 
 <hr>
-# New Icefury
+# Fire and Storm Elemental pre-pull
 
-<hr>
-# Fusion of the Elements 
-How to efficiently proc it
+{{ site.data.spell.fe }} and {{ site.data.spell.se }} will start attacking your target if you cast them while targeting an enemy, even if you are not in combat.
+
+As you mostly care about their side effect and not their direct damage, you want to cast them pre-pull to gain uptime on the boss.  
+
+So how do you do that? Quite simply frankly. You clear targets, cast your Elemental, then target your enemy and start casting. Be warned that `/cleartarget` macros (and all macros in general) do not work to make this process automatic. It used to, but was fixed in DF prepatch.
 
 <hr>
 # Mastery, Overloads and Chain Lightning
+
+
 
 <hr>
 # Liquid Magma Totem
@@ -69,6 +66,28 @@ if you are planning to use 2 {{ site.data.spell.lmt }} in a pack thanks to :TR:,
 Do. Not. Kill. {{ site.data.spell.lmt }}. It can rip aggro if you put it down before tank gets aggro and it will get one shotted. 
 
 Sure, it already spread {{ site.data.spell.fs }} but you're still losing a lot of damage.
+
+<hr>
+# New Icefury
+Deck of card
+
+
+<hr>
+# Fusion of the Elements 
+How to efficiently proc it
+
+<hr>
+# Deeply Rooted Elements
+
+Casting {{ site.data.spell.lava_burst }} has an ever increasing chance to trigger {{ site.data.spell.ascendance }}, starting with a double 0% chance then incrementing by 1% per cast (0%, 0%, 1%, 2%, 3%, 4%, ...). This averages out to the 7% chance stated by the tooltip.
+
+<img src="/assets/img/guide/DRE_proc_chart.png" alt="DRE proc Chart">
+
+This behaviour implies low chance of back to back procs, as well as low chance of no procs for a extended period. 
+
+What becomes apparent is that you can and should play around your current proc chance. Let's say you're at the end of a mythic+ pack and your {{ site.data.spell.dre }} counter is at 11%. You're likely to proc {{ site.data.spell.asc }} in your next 3 to 5 {{ site.data.spell.lvb }} casts. If you stop casting {{ site.data.spell.lvb }} until next pack, you increase your chance of proccing {{ site.data.spell.asc }} when it matters in the next pack instead of proccing it on almost dead mobs.
+
+This weakaura (must include link, ping me in Discord if I forgot to update this line) will help you track your {{ site.data.spell.dre }} counter in game and play around it.
 
 <hr>
 
