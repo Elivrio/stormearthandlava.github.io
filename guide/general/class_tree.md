@@ -97,16 +97,17 @@ We don't really ever need {{ site.data.spell.creation_core }} since we rarely ne
 Most of the time, the class tree in Raid will have this base.
 
 <div class="iframe-holder">
-  <iframe src="https://mimiron.raidbots.com/simbot/render/talents/CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAWmmZGmtFzMTjZMzshlZYwYYWGDAgB?width=650&level=80" frameborder="0" width="530px" height="100%"></iframe>
+  <iframe src="https://mimiron.raidbots.com/simbot/render/talents/CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAA2mmZGmtFzMTjZMzshlZYwYYWGDAgB?width=650&level=80" frameborder="0" width="530px" height="100%"></iframe>
 </div>
 
 
 #### Points that are easily droppable
 - {{ site.data.spell.mana_spring }}
-- {{ site.data.spell.hst }} and {{ site.data.spell.elemental_resistance }}
-  - You can path through {{ site.data.spell.cleanse_spirit }} to get {{ site.data.spell.elemental_warding }}
+- {{ site.data.spell.hst }} and {{ site.data.spell.elemental_resistance }}. You can path through {{ site.data.spell.cleanse_spirit }} to get {{ site.data.spell.elemental_warding }} and gain 1 point.
 - {{ site.data.spell.refreshing_waters }}
-- {{ site.data.spell.spirit_wolf }}
+- {{ site.data.spell.thunderous_paws }}
+- {{ site.data.spell.ns }} if you are not Farseer
+- If you do not have {{ site.data.spell.lmt }} talented, {{ site.data.spell.totemic_recall }} can be skipped if you don't need it for {{ site.data.spell.wrt }}
 
 #### Logical points
 - If you have {{ site.data.spell.wind_shear }}, you should always get {{site.data.spell.seasoned_winds }} with it. You can remove {{ site.data.spell.totemic_surge }} in that case.
@@ -124,9 +125,10 @@ Most of the time, the class tree in Mythic+ will have this base.
 </div>
 
 #### Points that are easily droppable
-- {{ site.data.spell.winds_of_alakir }}
-- {{ site.data.spell.wind_rush_totem }} and {{ site.data.spell.ascending_air }}
-- {{ site.data.spell.lightning_lasso }}, this spell is not used as a damaging spell, only a CC.
+- {{ site.data.spell.ns }} if you are not Farseer
+- If you do not have {{ site.data.spell.lmt }} talented, {{ site.data.spell.totemic_recall }} can be skipped if you don't need it for {{ site.data.spell.wrt }}
+- {{ site.data.spell.wind_rush_totem }} and ({{ site.data.spell.ascending_air }} / {{site.data.spell.jet_stream}})
+- {{ site.data.spell.lightning_lasso }}, as its just a bad CC and not a damaging spell.
 - {{ site.data.spell.thunderous_paws }}
 - {{ site.data.spell.elemental_orbit }} and {{ site.data.spell.earth_shield }}
 

@@ -68,15 +68,6 @@ Do. Not. Kill. {{ site.data.spell.lmt }}. It can rip aggro if you put it down be
 Sure, it already spread {{ site.data.spell.fs }} but you're still losing a lot of damage.
 
 <hr>
-# New Icefury
-Deck of card
-
-
-<hr>
-# Fusion of the Elements 
-How to efficiently proc it
-
-<hr>
 # Deeply Rooted Elements
 
 Casting {{ site.data.spell.lava_burst }} has an ever increasing chance to trigger {{ site.data.spell.ascendance }}, starting with a double 0% chance then incrementing by 1% per cast (0%, 0%, 1%, 2%, 3%, 4%, ...). This averages out to the 7% chance stated by the tooltip.
@@ -88,6 +79,51 @@ This behaviour implies low chance of back to back procs, as well as low chance o
 What becomes apparent is that you can and should play around your current proc chance. Let's say you're at the end of a mythic+ pack and your {{ site.data.spell.dre }} counter is at 11%. You're likely to proc {{ site.data.spell.asc }} in your next 3 to 5 {{ site.data.spell.lvb }} casts. If you stop casting {{ site.data.spell.lvb }} until next pack, you increase your chance of proccing {{ site.data.spell.asc }} when it matters in the next pack instead of proccing it on almost dead mobs.
 
 This weakaura (must include link, ping me in Discord if I forgot to update this line) will help you track your {{ site.data.spell.dre }} counter in game and play around it.
+
+<hr> 
+# Flash of Lightning
+
+Sometimes assessing the strength of talents is tricky, arguably one of the best examples of this is {{ site.data.spell.fol }}.
+This is because the game does no real work to inform you what "Nature" spells are. To help with this, here is a list of all the known spell cooldowns that are reduced by {{ site.data.spell.fol }}.
+
+- {{ site.data.spell.ag }}
+- {{ site.data.spell.as }}
+- {{ site.data.spell.bl }}
+- {{ site.data.spell.capacitor_totem }}
+- {{ site.data.spell.cleanse_spirit }}
+- {{ site.data.spell.earthbind_totem }}
+- {{ site.data.spell.earthgrab_totem }}
+- {{ site.data.spell.ee }}
+- {{ site.data.spell.fs }}
+- {{ site.data.spell.greater_purge }}
+- {{ site.data.spell.gow }}
+- {{ site.data.spell.healing_stream_totem }}
+- {{ site.data.spell.hex }}
+- {{ site.data.spell.lightning_lasso }}
+- {{ site.data.spell.ns }}
+- {{ site.data.spell.pct }}
+- {{ site.data.spell.pw }} (soon TM)
+- {{ site.data.spell.ankh }}
+- {{ site.data.spell.swg }}
+- {{ site.data.spell.sbt }} (soon TM)
+- {{ site.data.spell.se }}
+- {{ site.data.spell.sk }}
+- {{ site.data.spell.thunderstorm }}
+- {{ site.data.spell.totemic_projection }}
+- {{ site.data.spell.totemic_recall }}
+- {{ site.data.spell.tremor_totem }}
+- {{ site.data.spell.wrt }}
+- {{ site.data.spell.wind_shear }}
+
+Spells that it doesn't work with but maybe should?
+- {{ site.data.spell.spirit_walk }}
+
+<hr>
+# Future ideas
+### New Icefury
+Deck of card? 
+### Fusion of the Elements 
+How to efficiently proc it
 
 <hr>
 

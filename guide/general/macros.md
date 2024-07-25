@@ -15,7 +15,7 @@ If you have suggestions to improve macros found on this page, or additional macr
 
 # Rotational Abilities
 
-## Flame Shock
+## 1. Flame Shock
 
 This macro will cast {{ site.data.spell.fs }} at your current Mouseover target if it is an enemy, otherwise will cast it on your current target.
 
@@ -26,18 +26,7 @@ This macro will cast {{ site.data.spell.fs }} at your current Mouseover target i
 
 <br>
 
-## Frost Shock
-
-This macro will cast {{ site.data.spell.frs }} at your current Mouseover target if it is an enemy, otherwise will cast it on your current target.
-
-```
-#showtooltip
-/use [@mouseover,harm,nodead][]Frost Shock
-```
-
-<br>
-
-## Primordial Wave
+## 2. Primordial Wave
 
 This macro will cast {{ site.data.spell.pw }} at your current Mouseover target if it is an enemy, otherwise will cast it on your current target.
 
@@ -45,11 +34,10 @@ This macro will cast {{ site.data.spell.pw }} at your current Mouseover target i
 #showtooltip
 /use [@mouseover,harm,exists][harm]Primordial Wave
 ```
-*Note: If your Covenant is set to Necrolord in Shadowlands, you may need to add (Shadowlands) immediately after Primordial Wave, or shift-click the ability from your spellbook while editing the macro. You can also change your covenant in Oribos to forget about this problem forever.*
 
 <br>
 
-## Earthquake
+## 3. Earthquake
 
 This macro will cast {{ site.data.spell.eq }} at the current location of your cursor without targeting reticule.
 
@@ -62,7 +50,7 @@ This macro will cast {{ site.data.spell.eq }} at the current location of your cu
 
 # Cooldowns
 
-## Primordial Elementalist or Liquid Magma Totem
+## 1. Primordial Elementalist or Liquid Magma Totem
 
 This macro will use either {{ site.data.spell.tempest }} or {{ site.data.spell.meteor }} when {{ site.data.spell.pe }} is talented, or {{ site.data.spell.lmt }} at your Cursor location if it is talented.
 
@@ -73,7 +61,7 @@ This macro will use either {{ site.data.spell.tempest }} or {{ site.data.spell.m
 
 <br>
 
-## Elemental and Primordial Elementalist
+## 2. Elemental and Primordial Elementalist
 
 This macro will summon your currently talented Elemental, and when pressed again the associated {{ site.data.spell.pe }} spell for them.
 
@@ -86,22 +74,10 @@ This macro will summon your currently talented Elemental, and when pressed again
 
 <hr>
 
-# Utility
-
-## Dismiss pet
-This macro requires the [following Weakaura](https://wago.io/3fH2MR2PA) to work, and will dismiss your currently summoned elementals whenever you use it. This is mostly used on {{ site.data.spell.ee }}.
-
-```
-/click MyTotemFrame1
-/click MyTotemFrame2
-/click MyTotemFrame3
-/click MyTotemFrame4
-```
-
-## Interrupts - Wind Shear
+# Interrupts - Wind Shear
 There are many ways to macro interrupt abilities, below are some examples only use whichever setup enables you to play most reliably:
 
-#### Focus Kick
+## 1. Focus Kick
 This macro will use {{ site.data.spell.wind_shear }} at your Focus if you have one, otherwise will interrupt your current target.
 
 ```
@@ -111,7 +87,7 @@ This macro will use {{ site.data.spell.wind_shear }} at your Focus if you have o
 
 <br>
 
-#### Mouseover Kick
+## 2. Mouseover Kick
 This macro will use {{ site.data.spell.wind_shear }} on current Mouseover target if it is an enemy, otherwise will interrupt your current target.
 
 ```
@@ -121,7 +97,7 @@ This macro will use {{ site.data.spell.wind_shear }} on current Mouseover target
 
 <br>
 
-#### Focus + Mouseover Kick
+## 3. Focus + Mouseover Kick
 This macro will use {{ site.data.spell.wind_shear }} at your Focus if you have one, try on your current Mouseover target if it is an enemy, otherwise will interrupt your current target.
 
 ```
@@ -131,7 +107,7 @@ This macro will use {{ site.data.spell.wind_shear }} at your Focus if you have o
 
 <br>
 
-#### Specific target Kick
+## 4. Specific target Kick
 
 This macro works for specific interrupt uses, if you dislike using Focus or Mouseovers.
 
@@ -142,20 +118,24 @@ This macro works for specific interrupt uses, if you dislike using Focus or Mous
 /targetlasttarget
 ```
 
-<br>
+<hr>
 
-## Hex
+# Combining similar spells
 
-This macro will use {{ site.data.spell.hex }} at your Focus if you have one, try on your current Mouseover target if it is an enemy, otherwise will {{ site.data.spell.hex }} your current target.
+## 1. Earth Shield mouseover with Elemental Orbit 
+
+This macro will use in that order:
+- Use {{ site.data.spell.earth_shield }} on your mouseover if you are talented into {{ site.data.spell.elemental_orbit }} 
+- Use {{ site.data.spell.earth_shield }} on self otherwise
 
 ```
 #showtooltip
-/use [@focus,harm,exists,nodead][@mouseover,harm,nodead][]Hex
+/use [@mouseover,help,nodead,known:383010][@player]Earth Shield
 ```
 
 <br>
 
-## Purge/Decurse single macro
+## 2. Purge/Decurse single macro
 
 This macro will use in that order:
  - {{ site.data.spell.purge }} or {{ site.data.spell.greater_purge }} on your Mouseover target if it is an enemy,
@@ -171,7 +151,7 @@ This macro will use in that order:
 
 <br>
 
-## Chains Lightning/Heal single macro
+## 3. Chains Lightning/Heal single macro
 
 This macro will use in that order:
  - {{ site.data.spell.cl }} on your Mouseover target if it is an enemy,
@@ -186,28 +166,35 @@ This macro will use in that order:
 
 <br>
 
-## Healing Surge
+## 4. Ancestral Spirit/Healing Surge single macro
 
-This macro will cast {{ site.data.spell.healing_surge }} at your current Mouseover target if it is an ally, otherwise will cast it on yourself.
-
-```
-#showtooltip
-/use [@mouseover,help,nodead][]Healing Surge
-```
-
-<br>
-
-## Elemental Shields
-This macro will cast {{ site.data.spell.earth_shield }} on yourself if you press Shift while using it, otherwise it will cast {{ site.data.spell.lightning_shield }} on yourself.
+This macro will use in that order:
+- {{ site.data.spell.ancestral_spirit }} at your current Mouseover target if they are a dead ally
+- {{ site.data.spell.healing_surge }} at your current Mouseover target if they are a living ally 
+- {{ site.data.spell.ancestral_spirit }} at your current target if they are a dead
+- {{ site.data.spell.healing_surge }} otherwise
 
 ```
 #showtooltip
-/use [mod:shift,@player]Earth Shield;[nomod]Lightning Shield
+/use [@mouseover,help,dead]Ancestral Spirit;[@mouseover,help,nodead]Healing Surge;[dead]Ancestral Spirit;Healing Surge
 ```
 
 <br>
+## 5. Castsequence Buffs macro 
 
-## Earthbind Totem
+This macro put {{ site.data.spell.skyfury }}, {{ site.data.spell.lightning_shield }}, {{ site.data.spell.flametongue_weapon }} and {{ site.data.spell.thunderstrike_ward }} (if known) in the same keybind to avoid bar bloat. 
+
+It will reset to {{ site.data.spell.skyfury }} after 3 seconds of not pressing it. The reset is in place to allow you to easily rebuff your raid multiple times mid pull.
+
+```
+#showtooltip
+/castsequence [known:462757] reset=3 Skyfury, Lightning Shield, Flametongue Weapon, Thunderstrike Ward; [] reset=3 Skyfury, Lightning Shield, Flametongue Weapon
+```
+
+<hr>
+# Totems at cursor location
+
+## 1. Earthbind Totem
 
 This macro will cast {{ site.data.spell.earthbind_totem }} at the current location of your cursor without targeting reticule.
 
@@ -215,10 +202,11 @@ This macro will cast {{ site.data.spell.earthbind_totem }} at the current locati
 #showtooltip
 /use [@cursor]Earthbind Totem
 ```
+*Note: this will work with {{ site.data.spell.earthgrab_totem }} without changing the macro*
 
 <br>
 
-## Capacitor Totem
+## 2. Capacitor Totem
 
 This macro will cast {{ site.data.spell.capacitor_totem }} at the current location of your cursor without targeting reticule.
 
@@ -229,46 +217,11 @@ This macro will cast {{ site.data.spell.capacitor_totem }} at the current locati
 
 <br>
 
-## Totemic Projection
+## 3. Totemic Projection
 
 This macro will cast {{ site.data.spell.totemic_projection }} at the current location of your cursor without targeting reticule.
 
 ```
 #showtooltip
 /use [@cursor]Totemic Projection
-```
-
-<hr>
-
-# Talent Tree Swap depending on talents
-
-## Fire Elemental and Storm Elemental
-
-This macro will cast either {{ site.data.spell.fe }} or {{ site.data.spell.se }} depending on your talent choice.
-
-```
-#showtooltip
-/use [known:Storm Elemental]Storm Elemental;[known:Fire Elemental]Fire Elemental
-```
-
-<br>
-
-## Spirit Walk / Gust of Wind
-
-This macro will cast either {{ site.data.spell.spirit_walk }} or {{ site.data.spell.gow }} depending on your talent choices.
-
-```
-#showtooltip
-/use [known:Spirit Walk]Spirit Walk;[known:Gust of Wind]Gust of Wind
-```
-
-<br>
-
-## Stoneskin Totem / Tranquil Air Totem
-
-This macro will cast either {{ site.data.spell.stoneskin_totem }} or {{ site.data.spell.tranquil_air_totem }} depending on your talent choices.
-
-```
-#showtooltip
-/use [known:Stoneskin Totem]Stoneskin Totem;[known:Tranquil Air Totem]Tranquil Air Totem
 ```

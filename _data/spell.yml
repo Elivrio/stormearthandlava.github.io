@@ -12,6 +12,8 @@
 # Replace ID          with the appropriate id
 # Replace PLAIN_NAME  with the appropriate base name
 
+ancestral_spirit: <a href="https://www.wowhead.com/beta/spell=2008/ancestral-spirit" target="blank">Ancestral Spirit</a>
+
 astral_recall: <a href="https://www.wowhead.com/spell=556" target="blank">Astral Recall</a>
 
 bloodlust: <a href="https://www.wowhead.com/spell=2825" target="blank">Bloodlust/Heroism</a>
@@ -58,6 +60,8 @@ lightning_shield: <a href="https://www.wowhead.com/spell=192106" target="blank">
 
 reincarnation: <a href="https://www.wowhead.com/spell=20608" target="blank">Reincarnation</a>
 ankh: <a href="https://www.wowhead.com/spell=20608" target="blank">Reincarnation</a>
+
+skyfury: <a href="https://www.wowhead.com/beta/spell=462854/skyfury" target="blank">Skyfury</a>
 
 water_walking: <a href="https://www.wowhead.com/spell=546" target="blank">Water Walking</a>
 
@@ -353,8 +357,6 @@ grounding_totem: <a href="https://www.wowhead.com/spell=204336" target="blank">G
 
 precognition: <a href="https://www.wowhead.com/spell=377360/precognition" target="blank">Precognition</a>
 
-skyfury_totem: <a href="https://www.wowhead.com/spell=204330" target="blank">Skyfury Totem</a>
-
 static_field_totem: <a href="https://www.wowhead.com/spell=355580/static-field-totem" target="blank">Static Field Totem</a>
 
 tidebringer: <a href="https://www.wowhead.com/spell=236501/tidebringer" target="blank">Tidebringer</a>
@@ -495,6 +497,7 @@ ws: <a href="https://www.wowhead.com/spell=378268/windspeakers-lava-resurgence" 
 wlr: <a href="https://www.wowhead.com/spell=378268/windspeakers-lava-resurgence" target="blank">Windspeaker's Lava Resurgence</a>
 
 # --------------------- PVP ---------------------
+skyfury_totem: <a href="https://www.wowhead.com/spell=204330" target="blank">Skyfury Totem</a>
 spectral_recovery: <a href="https://www.wowhead.com/spell=204261" target="blank">Spectral Recovery</a>
 swelling_waves: <a href="https://www.wowhead.com/spell=204264" target="blank">Swelling Waves</a>
 
