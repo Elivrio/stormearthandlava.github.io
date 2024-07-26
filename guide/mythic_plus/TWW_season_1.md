@@ -56,17 +56,15 @@ You can also check the [Class Tree page]({{ site.baseurl }}{%link guide/general/
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
-
-* {{ site.data.dungeon.cos.cos }} is a dungeon with many small packs and many mini-bosses. Depending your group composition, Single Target Oriented build that does good on demand AoE will perform better on average than a full AoE build. I recommend using the "Primordial Surge with Stormkeeper" from the [Build Page](https://stormearthandlava.com/guide/general/builds.html#primordial-surge-builds).
-* {{ site.data.spell.hex }} is a good option in this dungeon to control patrols, adds on first boss and hard CC breaks in general.
-* {{ site.data.spell.spirit_walk }} and {{ site.data.spell.thunderous_paws }} can be used to cleanse the debuff on the first boss.
-* {{ site.data.spell.purge }} has some uses in the area before the first boss.
-* {{ site.data.spell.guardians_cudgel }} and {{ site.data.spell.thunderstorm }} are very good hard CC to deal with the {{ site.data.dungeon.cos.blazing_imp }} packs.
-* {{ site.data.spell.stoneskin_totem }} can be used in higher key for {{ site.data.dungeon.cos.imacutya }}'s damage on the tank and {{ site.data.dungeon.cos.advisor_melandrus }}'s {{ site.data.dungeon.cos.slicing_maelstrom }}.
+Placeholder text for the Ara-Kara, City of Echoes
 
 <hr>
 
 ### Recommended builds
+
+<div class="iframe-holder">
+  <iframe src="https://mimiron.raidbots.com/simbot/render/talents/CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAz20MYstwMTYmZmlhlZMDmlBLzMAAG?width=650&level=80" frameborder="0" width="530px" height="100%"></iframe>
+</div>
 
 </div>
 </div>
@@ -80,15 +78,15 @@ You can also check the [Class Tree page]({{ site.baseurl }}{%link guide/general/
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
-
-* {{ site.data.spell.tremor_totem }} can be used to reduce the amount of kicks needed in {{ site.data.dungeon.aa.vexamus }}' area.
-* {{ site.data.spell.poison_cleansing_totem }} can be used to help the tank and the healer in {{ site.data.dungeon.aa.overgrown_ancient }}'s area.
-* {{ site.data.spell.purge }} has some uses in the area before the last boss.
-* {{ site.data.spell.stoneskin_totem }} can be used in higher key for {{ site.data.dungeon.aa.crawth }}'s {{ site.data.dungeon.aa.savage_peck }} and {{ site.data.dungeon.aa.overgrown_ancient }}'s {{ site.data.dungeon.aa.splinterbark }} and {{ site.data.dungeon.aa.barkbreaker }}.
+Placeholder text for the City of Threads
 
 <hr>
 
 ### Recommended builds
+
+<div class="iframe-holder">
+  <iframe src="https://mimiron.raidbots.com/simbot/render/talents/CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAz20MYstwMTYmZmlhlZMDmlBLzMAAG?width=650&level=80" frameborder="0" width="530px" height="100%"></iframe>
+</div>
 
 </div>
 </div>
@@ -101,19 +99,16 @@ You can also check the [Class Tree page]({{ site.baseurl }}{%link guide/general/
 <div id="gb-collapse" class="collapse" aria-labelledby="gb" data-parent="#accordion">
 <div class="card-body" markdown="1">
 
-### Miscellaneous Tips
-
-* There are many frontals and cleaves in this dungeon. Staying away from the tank is generally a good idea.
-
 ### Notable Talent Choices
-* {{ site.data.spell.purge }} has some really good uses, notably on the {{ site.data.dungeon.hov.stormforged_sentinel }}.
-* Halls of Valor is a really intensive healing dungeon, {{ site.data.spell.ag }} has a lot of value, notably on bosses.
-* The bosses are pretty dangerous, notably in {{ site.data.affixes.tyrannical }}. Consider running {{ site.data.spell.spirit_wolf }} and {{ site.data.spell.brimming_with_life }} for extra survivability.
-* {{ site.data.spell.stoneskin_totem }} can be used in higher key for {{ site.data.dungeon.hov.hymdall }}'s {{ site.data.dungeon.hov.horn_of_valor }} and {{ site.data.dungeon.hov.fenryr }}'s {{ site.data.dungeon.hov.claw_frenzy }}.
+Placeholder text for Grim Batol
 
 <hr>
 
 ### Recommended builds
+
+<div class="iframe-holder">
+  <iframe src="https://mimiron.raidbots.com/simbot/render/talents/CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAz20MYstwMTYmZmlhlZMDmlBLzMAAG?width=650&level=80" frameborder="0" width="530px" height="100%"></iframe>
+</div>
 
 </div>
 </div>
@@ -127,14 +122,15 @@ You can also check the [Class Tree page]({{ site.baseurl }}{%link guide/general/
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
-* {{ site.data.spell.purge }} is very potent in Ruby Life Pools, allowing you to execute adds and dispel shields.
-* Ruby Life Pools is a really intensive healing dungeon, {{ site.data.spell.ag }} has a lot of value, notably on bosses and minibosses.
-* The bosses are pretty dangerous, notably in {{ site.data.affixes.tyrannical }}. Consider running {{ site.data.spell.spirit_wolf }} and {{ site.data.spell.brimming_with_life }} for extra survivability.
-* {{ site.data.spell.stoneskin_totem }} can be used in higher key to reduce tank damage on the second and third boss.
+Placeholder text for Mists of Tirna Scythe
 
 <hr>
 
 ### Recommended builds
+
+<div class="iframe-holder">
+  <iframe src="https://mimiron.raidbots.com/simbot/render/talents/CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAz20MYstwMTYmZmlhlZMDmlBLzMAAG?width=650&level=80" frameborder="0" width="530px" height="100%"></iframe>
+</div>
 
 </div>
 </div>
@@ -148,12 +144,15 @@ You can also check the [Class Tree page]({{ site.baseurl }}{%link guide/general/
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
-* {{ site.data.spell.purge }} has some good uses, allowing you dispel big shields after the first boss notably.
-* {{ site.data.spell.tremor_totem }} can be used on the adds after the first boss.
+Placeholder text for Siege of Boralus
 
 <hr>
 
 ### Recommended builds
+
+<div class="iframe-holder">
+  <iframe src="https://mimiron.raidbots.com/simbot/render/talents/CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAz20MYstwMTYmZmlhlZMDmlBLzMAAG?width=650&level=80" frameborder="0" width="530px" height="100%"></iframe>
+</div>
 
 </div>
 </div>
@@ -167,13 +166,15 @@ You can also check the [Class Tree page]({{ site.baseurl }}{%link guide/general/
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
-* {{ site.data.spell.cleanse_spirit }} is a mandatory talent in Temple of the Jade Serpent.
-* {{ site.data.spell.tremor_totem }} has some uses, notably to counter the fear sha if people do not kick, but it could be skipped.
-* {{ site.data.spell.purge }} has can be used a single time in the dungeon. Probably the best moment to drop it.
+Placeholder text for the Dawnbreaker
 
 <hr>
 
 ### Recommended builds
+
+<div class="iframe-holder">
+  <iframe src="https://mimiron.raidbots.com/simbot/render/talents/CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAz20MYstwMTYmZmlhlZMDmlBLzMAAG?width=650&level=80" frameborder="0" width="530px" height="100%"></iframe>
+</div>
 
 </div>
 </div>
@@ -187,13 +188,15 @@ You can also check the [Class Tree page]({{ site.baseurl }}{%link guide/general/
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
-* {{ site.data.spell.thunderous_paws }} is really useful to reset the slow on the last boss
-* {{ site.data.spell.gust_of_wind }} gives you extra mobility in the long corridors of the dungeon and allows you to execute the jump down skips without dying.
-* {{ site.data.spell.tremor_totem }} can make some packs less heavy on interrupt requirements but it isn't mandatory at all.
+Placeholder text for the Necrotic Wake
 
 <hr>
 
 ### Recommended builds
+
+<div class="iframe-holder">
+  <iframe src="https://mimiron.raidbots.com/simbot/render/talents/CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAz20MYstwMTYmZmlhlZMDmlBLzMAAG?width=650&level=80" frameborder="0" width="530px" height="100%"></iframe>
+</div>
 
 </div>
 </div>
@@ -207,13 +210,15 @@ You can also check the [Class Tree page]({{ site.baseurl }}{%link guide/general/
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
-* {{ site.data.spell.tremor_totem }} has some uses on the third boss but it isn't mandatory at all.
-* {{ site.data.spell.purge }} is very useful on the second boss, be sure to talent it if your group doesn't have one.
-* {{ site.data.spell.stoneskin_totem }} can be used in higher key for {{ site.data.dungeon.no.teera }}'s {{ site.data.dungeon.no.quick_shot }} and {{ site.data.dungeon.no.balakar_khan }}'s {{ site.data.dungeon.no.iron_spear }}.
+Placeholder text for the StoneVault
 
 <hr>
 
 ### Recommended builds
+
+<div class="iframe-holder">
+  <iframe src="https://mimiron.raidbots.com/simbot/render/talents/CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAz20MYstwMTYmZmlhlZMDmlBLzMAAG?width=650&level=80" frameborder="0" width="530px" height="100%"></iframe>
+</div>
 
 </div>
 </div>
