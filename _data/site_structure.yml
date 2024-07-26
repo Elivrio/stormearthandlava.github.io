@@ -22,6 +22,8 @@ categories:
       url: /guide/general/trinkets.html
 - title: Mythic+
   subcategories:
+    - title : TWW Season 1
+      url: /guide/mythic_plus/TWW_season_1.html
     - title : DF Season 2
       url: /guide/mythic_plus/DF_season_2.html
     - title : DF Season 1
