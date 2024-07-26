@@ -40,23 +40,26 @@ You can also check the [Class Tree page]({{ site.baseurl }}{%link guide/general/
 The Affix System was entirely reworked and most of the previous affixes are now gone from the pool, leaving only {{ site.data.affixes.fort }} and {{ site.data.affixes.tyr }}.
 
 ### Level 4 and 10: Tyrannical and Fortified
-{{ site.data.affixes.fort }} and {{ site.data.affixes.tyr }} will still be rotating every week for keys between the level 4 and 10. Starting at level 10, both will be active and the week to week rotation will disappear.
+{{ site.data.affixes.fort }} and {{ site.data.affixes.tyr }} will still be rotating every week for keys between the level 4 and 10. Starting at level 10, both will be active and the week to week rotation will disappear. Apart from that, the way to deal with these affixes didn't change much.
 
-Apart from that, the way to deal with these affixes didn't change much:
-* {{ site.data.affixes.fortified }}: Consider using {{ site.data.spell.bl }} on hard mob pulls. Some random add abilities that are usually harmless can quickly become deadly and require more interrupts or extra defensives. Coordinate with your party to layer your AoE CC abilities and use {{ site.data.spell.as }} wisely.
-* {{ site.data.affixes.tyrannical }}: Boss fights turn into a battle of endurance. Coordinate with your healer to use {{ site.data.spell.ag }} at the best time depending on their need. Many Single target abilities become lethal and require a good {{ site.data.spell.as }} timing to survive.
+With {{ site.data.affixes.fortified }}, consider using {{ site.data.spell.bl }} on hard mob pulls. Some random add abilities that are usually harmless can quickly become deadly and require more interrupts or extra defensives. Coordinate with your party to layer your AoE CC abilities and use {{ site.data.spell.as }} wisely.
+
+With {{ site.data.affixes.tyrannical }}, Boss fights turn into a battle of endurance. Coordinate with your healer to use {{ site.data.spell.ag }} at the best time depending on their need. Many Single target abilities become lethal and require a good {{ site.data.spell.as }} timing to survive.
 
 ### Level 7: Challenger's Peril
 {{ site.data.affixes.challengers_peril }} is a new passive affix that will increase the normal death timer from 5 seconds to 15 seconds. There's nothing much that can be done about it than not to die. Learning how to use defensive effectively might be a good place to start.
 
 ### Level 2: Xal'atath's Bargain
-These are the new "seasonal" affixes. They will be replaced at level 12 and establish kiss-curse mechanics
+These are the new "seasonal" affixes. They will be replaced at level 12 and establish kiss-curse mechanics.
 
-- {{ site.data.affixes.ascendant }}: Use {{ site.data.spell.purge }}, {{ site.data.spell.wind_shear }}, {{ site.data.spell.capacitor_totem }} or {{ site.data.spell.thunderstorm }} to disrupt the {{ site.data.affixes.cosic_ascension }} cast by the orbs. You should be able to spam purge on them. Need to test if you can macro target them.
-- {{ site.data.affixes.voidbound }}:
-- {{ site.data.affixes.oblivion }}:
+{{ site.data.affixes.ascendant }} will have us use {{ site.data.spell.purge }}, {{ site.data.spell.wind_shear }}, {{ site.data.spell.capacitor_totem }} or {{ site.data.spell.thunderstorm }} to disrupt the {{ site.data.affixes.cosmic_ascension }} cast by the orbs. Doing so will grant you a movement speed and haste buff.
+
+{{ site.data.affixes.voidbound }} is very easy to deal with. Focus the void emissary to gain {{ site.data.affixes.blessing_from_beyond }} as fast as possible and limit {{ site.data.affixes.dark_prayer }} stacks.
+
+{{ site.data.affixes.oblivion }}: New affix? We'll see when there's more info.
 
 ### Level 12: Xal'atath's Guile
+At level 12, the Xal'atath's Bargains are void. Instead, they are replaced by {{ site.data.affixes.guile }}. Keys will become exponentially harder after each level past 12 due to this affix. Be prepared for anything.  
 
 <hr>
 
@@ -245,7 +248,7 @@ Placeholder text for the StoneVault
 </div>
 </div>
 
-<br> 
+<br>
 
 <hr>
 
