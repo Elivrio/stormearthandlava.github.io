@@ -122,19 +122,6 @@ This macro works for specific interrupt uses, if you dislike using Focus or Mous
 
 # Combining similar spells
 
-## 1. Earth Shield mouseover with Elemental Orbit 
-
-This macro will use in that order:
-- Use {{ site.data.spell.earth_shield }} on your mouseover if you are talented into {{ site.data.spell.elemental_orbit }} 
-- Use {{ site.data.spell.earth_shield }} on self otherwise
-
-```
-#showtooltip
-/use [@mouseover,help,nodead,known:383010][@player]Earth Shield
-```
-
-<br>
-
 ## 2. Purge/Decurse single macro
 
 This macro will use in that order:
@@ -205,7 +192,6 @@ This macro will cast {{ site.data.spell.earthbind_totem }} at the current locati
 *Note: this will work with {{ site.data.spell.earthgrab_totem }} without changing the macro*
 
 <br>
-
 ## 2. Capacitor Totem
 
 This macro will cast {{ site.data.spell.capacitor_totem }} at the current location of your cursor without targeting reticule.
@@ -216,7 +202,6 @@ This macro will cast {{ site.data.spell.capacitor_totem }} at the current locati
 ```
 
 <br>
-
 ## 3. Totemic Projection
 
 This macro will cast {{ site.data.spell.totemic_projection }} at the current location of your cursor without targeting reticule.
@@ -224,4 +209,43 @@ This macro will cast {{ site.data.spell.totemic_projection }} at the current loc
 ```
 #showtooltip
 /use [@cursor]Totemic Projection
+```
+
+<br>
+## 4. Wind Rush Totem + Totemic Projection
+
+This macro will cast {{ site.data.spell.wrt }} and allow you to reposition it twice with {{ site.data.spell.totemic_projection }} at the current location of your cursor without targeting reticule.
+
+```
+#showtooltip
+/castsequence [@cursor] reset=20 Wind Rush Totem, Totemic Projection, Totemic Projection
+```
+
+<hr>
+
+# Generally Useful Utility
+
+## 1. Earth Shield mouseover with Elemental Orbit 
+
+This macro will use in that order:
+- {{ site.data.spell.earth_shield }} on your mouseover if you are talented into {{ site.data.spell.elemental_orbit }} 
+- {{ site.data.spell.earth_shield }} on self otherwise
+
+```
+#showtooltip
+/use [@mouseover,help,nodead,known:383010][@player]Earth Shield
+```
+
+<br>
+
+## 2. Thunderstorm Mouseover with Traveling Storms
+
+This macro will use in that order:
+- {{ site.data.spell.thunderstorm }} on a friendly mouseover if {{ site.data.spell.traveling_storms }} is talented.
+- {{ site.data.spell.thunderstorm }} on a friendly target if {{ site.data.spell.traveling_storms }} is talented.
+- {{ site.data.spell.thunderstorm }} on self otherwise
+
+```
+#showtooltip
+/use [@mouseover,help,nodead,known:204403][help,known:204403][@player]Thunderstorm
 ```
