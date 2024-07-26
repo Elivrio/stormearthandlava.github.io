@@ -75,6 +75,6 @@ It's a setting. Go to `Details Options Panel` > `Options` > `Rename Spells` > Un
 
 <hr> 
 #### Any tips to become a better player? 
-The following post is from 2014 and still dead on more than 10 years later. It's not about the gameplay, it's about the mentality. While it was initially written for raid, and mythic+ didn't exist back then, most of the topics of the post apply for mythic+.
+The following post is from 2014 and still dead on more than 10 years later. It's not about the gameplay, it's about the mentality. While it was initially written for raid and mythic+ didn't exist back then, most of the topics of the post apply for mythic+.
 
 It's a web archive so it can take some time to load: [raid awareness is learned and practised skill](<https://web.archive.org/web/20190805085507/http://iam.yellingontheinternet.com/2014/01/29/raid-awareness-is-a-learned-and-practiced-skill/>). 
