@@ -14,42 +14,6 @@ In practical terms we cannot account for every build variation and effort has be
 
 <hr>
 
-# Class Tree
-
-It is also important to note that Shamans's class tree does not include DPS increase except for:
-- {{ site.data.spell.fire_and_ice }} and {{ site.data.spell.natures_fury }}.
-- {{ site.data.spell.totemic_recall }} and {{ site.data.spell.call_of_the_elements }} with {{ site.data.spell.lmt }} talented in the spec tree.
-- {{ site.data.spell.frs }} with {{ site.data.spell.if }} talented in the spec tree. {{ site.data.spell.frs }} is recommended in all builds anyway just as a movement global.
-
-That's it. All other talent are purely defensively and utility oriented, making our tree very flexible in the actual choices we get.
-
-Here is a list of some talents that are recommended to get in every situation :
-- {{ site.data.spell.as }} and {{ site.data.spell.planes_traveler }}, our defensive CD.
-- {{ site.data.spell.swg }} and {{ site.data.spell.graceful_spirit }} for movement.
-- {{ site.data.spell.gust_of_wind }} or {{ site.data.spell.spirit_walk }} for movement.
-- {{ site.data.spell.ag }} for group healing support.
-
-More situational talents picks:
-#### Defensive:
-  - {{ site.data.spell.natures_guardian }} and {{ site.data.spell.ancestral_defence }} and {{ site.data.spell.elemental_warding }} are good sustain passives.
-  - {{ site.data.spell.ee }} is both a good and a bad defensive. It has a very long CD, making it hard to get reliable uses from it, but also has a very long uptime giving you great tankyness while it's up.
-  - {{ site.data.spell.earth_shield }} is a good sustain talent, just remember to refresh it when it falls off. It's also annoying to get since we almost never press {{ site.data.spell.chain_heal }}.
-  - {{ site.data.spell.brimming_with_life }} is a terribly designed talent that incites us to save {{ site.data.spell.ankh }} for more max HP. It is still better than nothing for an increase in survivability and overall {{ site.data.spell.ankh }} uses.
-  - {{ site.data.spell.healing_stream_totem }}, paired with {{ site.data.spell.swirling_currents }}, is a fire and forget heal assistance on the GCD. It's not bad but certainly not great.
-
-#### Movement:
-  - {{ site.data.spell.thunderous_paws }} is great for small burst of mobility and slow dispel, {{ site.data.spell.spirit_wolf }} is a great "long-distance" movement tool.
-  - {{ site.data.spell.wind_rush_totem }} is a good group movement talent.
-  - {{ site.data.spell.natures_swiftness }} is great to get an extra movement Global. Best used on {{ site.data.spell.eb }} in ST, {{ site.data.spell.cl }} in AoE and {{ site.data.spell.healing_surge }} when low on health.
-
-#### Utility:
-  - {{ site.data.spell.totemic_focus }} is great for both {{ site.data.spell.wrt }} duration and {{ site.data.spell.lmt }} width.
-  - {{ site.data.spell.mana_spring }} is better in raid content than it is in party, but good nonetheless.
-  - {{ site.data.spell.purge }} and {{ site.data.spell.cleanse_spirit }} are perfect examples of good talents that are purely situational and can be skipped in many builds, and picked only when needed.
-  - {{ site.data.spell.capacitor_totem }}, {{ site.data.spell.hex }}, {{ site.data.spell.earthgrab_totem }} or {{ site.data.spell.thunderstorm }} are situational Crowd Control talents.
-
-<hr>
-
 # Primordial Surge Builds
 
 Most notably aimed more at the Single Target profiles these variants are used when you need to focus on boss damage by using the inherent strength of combining {{ site.data.spell.ps }} and tools like {{ site.data.spell.dre }} and/or {{ site.data.spell.wlr }} to increase the value and frequency of {{ site.data.spell.lvs }}. Turning your {{ site.data.spell.eb }} and {{ site.data.spell.lvb }} into powerhouses.
