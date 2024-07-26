@@ -509,6 +509,9 @@ div.dungeon-header.vp {
   background-image: url('/assets/img/guide/dungeons/cataclysm/vortex_pinnacle.png')
 }
 
+div.dungeon-header.gb {
+    background-image: url('/assets/img/guide/dungeons/cataclysm/grim_batol.jpg')
+}
 
 // MoP Dungeons
 div.dungeon-header.tjs {
@@ -546,7 +549,7 @@ div.dungeon-header.kr {
 }
 
 div.dungeon-header.sob {
-  background-image: url('/assets/img/guide/dungeons/battle_for_azeroth/siege_of_boralus.png')
+  background-image: url('/assets/img/guide/dungeons/battle_for_azeroth/boralus.png')
 }
 
 div.dungeon-header.ml {
@@ -571,24 +574,6 @@ div.dungeon-header.ur {
 
 div.dungeon-header.wm {
   background-image: url('/assets/img/guide/dungeons/battle_for_azeroth/waycrest.png')
-}
-
-// SL Dungeons
-div.dungeon-header.gambit {
-  background-image: url('/assets/img/guide/dungeons/shadowlands/gambit.png')
-}
-
-div.dungeon-header.streets {
-  background-image: url('/assets/img/guide/dungeons/shadowlands/streets.png')
-}
-
-// SL Dungeons
-div.dungeon-header.gambit {
-  background-image: url('/assets/img/guide/dungeons/shadowlands/gambit.png')
-}
-
-div.dungeon-header.streets {
-  background-image: url('/assets/img/guide/dungeons/shadowlands/streets.png')
 }
 
 // SL Dungeons
@@ -663,6 +648,40 @@ div.dungeon-header.no {
 
 div.dungeon-header.udm {
     background-image: url('/assets/img/guide/dungeons/dragonflight/uldaman.png')
+}
+
+// TWW dungeons
+
+div.dungeon-header.cbm {
+    background-image: url("/assets/img/guide/dungeons/the_war_within/CBM.png");
+}
+
+div.dungeon-header.db {
+    background-image: url("/assets/img/guide/dungeons/the_war_within/DB.jpg");
+}
+
+div.dungeon-header.dfc {
+    background-image: url("/assets/img/guide/dungeons/the_war_within/DFC.png");
+}
+
+div.dungeon-header.rk {
+    background-image: url("/assets/img/guide/dungeons/the_war_within/RK.png");
+}
+
+div.dungeon-header.sv {
+    background-image: url("/assets/img/guide/dungeons/the_war_within/SV.png");
+}
+
+div.dungeon-header.ace {
+    background-image: url("/assets/img/guide/dungeons/the_war_within/ACE.png");
+}
+
+div.dungeon-header.cot {
+    background-image: url("/assets/img/guide/dungeons/the_war_within/CoT.png");
+}
+
+div.dungeon-header.psf {
+    background-image: url("/assets/img/guide/dungeons/the_war_within/PSF.png");
 }
 
 // BfA raids

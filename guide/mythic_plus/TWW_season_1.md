@@ -77,32 +77,10 @@ Scaling isn't linear. That means that going from 15s to 16s is way easier than g
 
 <div id="accordion">
 <div class="card">
-<div class="card-header" id="aa">
-<div data-toggle="collapse" data-target="#aa-collapse" aria-expanded="true" aria-controls="aa-collapse" class="dungeon-header aa"><h2>Algeth'ar Acedemy</h2></div>
+<div class="card-header" id="ace">
+<div data-toggle="collapse" data-target="#ace-collapse" aria-expanded="true" aria-controls="ace-collapse" class="dungeon-header ace"><h2>Ara-Kara, City of Echoes</h2></div>
 </div>
-<div id="aa-collapse" class="collapse" aria-labelledby="aa" data-parent="#accordion">
-<div class="card-body" markdown="1">
-
-### Notable Talent Choices
-
-* {{ site.data.spell.tremor_totem }} can be used to reduce the amount of kicks needed in {{ site.data.dungeon.aa.vexamus }}' area.
-* {{ site.data.spell.poison_cleansing_totem }} can be used to help the tank and the healer in {{ site.data.dungeon.aa.overgrown_ancient }}'s area.
-* {{ site.data.spell.purge }} has some uses in the area before the last boss.
-* {{ site.data.spell.stoneskin_totem }} can be used in higher key for {{ site.data.dungeon.aa.crawth }}'s {{ site.data.dungeon.aa.savage_peck }} and {{ site.data.dungeon.aa.overgrown_ancient }}'s {{ site.data.dungeon.aa.splinterbark }} and {{ site.data.dungeon.aa.barkbreaker }}.
-
-<hr>
-
-### Recommended builds
-
-</div>
-</div>
-</div>
-
-<div class="card">
-<div class="card-header" id="cos">
-<div data-toggle="collapse" data-target="#cos-collapse" aria-expanded="true" aria-controls="cos-collapse" class="dungeon-header cos"><h2>Court of Stars</h2></div>
-</div>
-<div id="cos-collapse" class="collapse" aria-labelledby="cos" data-parent="#accordion">
+<div id="ace-collapse" class="collapse" aria-labelledby="ace" data-parent="#accordion">
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
@@ -123,10 +101,32 @@ Scaling isn't linear. That means that going from 15s to 16s is way easier than g
 </div>
 
 <div class="card">
-<div class="card-header" id="hov">
-<div data-toggle="collapse" data-target="#hov-collapse" aria-expanded="true" aria-controls="hov-collapse" class="dungeon-header hov"><h2>Halls of Valor</h2></div>
+<div class="card-header" id="cot">
+<div data-toggle="collapse" data-target="#cot-collapse" aria-expanded="true" aria-controls="cot-collapse" class="dungeon-header cot"><h2>City of Threads</h2></div>
 </div>
-<div id="hov-collapse" class="collapse" aria-labelledby="hov" data-parent="#accordion">
+<div id="cot-collapse" class="collapse" aria-labelledby="cot" data-parent="#accordion">
+<div class="card-body" markdown="1">
+
+### Notable Talent Choices
+
+* {{ site.data.spell.tremor_totem }} can be used to reduce the amount of kicks needed in {{ site.data.dungeon.aa.vexamus }}' area.
+* {{ site.data.spell.poison_cleansing_totem }} can be used to help the tank and the healer in {{ site.data.dungeon.aa.overgrown_ancient }}'s area.
+* {{ site.data.spell.purge }} has some uses in the area before the last boss.
+* {{ site.data.spell.stoneskin_totem }} can be used in higher key for {{ site.data.dungeon.aa.crawth }}'s {{ site.data.dungeon.aa.savage_peck }} and {{ site.data.dungeon.aa.overgrown_ancient }}'s {{ site.data.dungeon.aa.splinterbark }} and {{ site.data.dungeon.aa.barkbreaker }}.
+
+<hr>
+
+### Recommended builds
+
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="gb">
+<div data-toggle="collapse" data-target="#gb-collapse" aria-expanded="true" aria-controls="gb-collapse" class="dungeon-header gb"><h2>Grim Batol</h2></div>
+</div>
+<div id="gb-collapse" class="collapse" aria-labelledby="gb" data-parent="#accordion">
 <div class="card-body" markdown="1">
 
 ### Miscellaneous Tips
@@ -148,10 +148,10 @@ Scaling isn't linear. That means that going from 15s to 16s is way easier than g
 </div>
 
 <div class="card">
-<div class="card-header" id="rlp">
-<div data-toggle="collapse" data-target="#rlp-collapse" aria-expanded="true" aria-controls="rlp-collapse" class="dungeon-header rlp"><h2>Ruby Life Pools</h2></div>
+<div class="card-header" id="mots">
+<div data-toggle="collapse" data-target="#mots-collapse" aria-expanded="true" aria-controls="mots-collapse" class="dungeon-header mots"><h2>Mists of Tirna Scithe</h2></div>
 </div>
-<div id="rlp-collapse" class="collapse" aria-labelledby="rlp" data-parent="#accordion">
+<div id="mots-collapse" class="collapse" aria-labelledby="mots" data-parent="#accordion">
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
@@ -169,10 +169,10 @@ Scaling isn't linear. That means that going from 15s to 16s is way easier than g
 </div>
 
 <div class="card">
-<div class="card-header" id="sbg">
-<div data-toggle="collapse" data-target="#sbg-collapse" aria-expanded="true" aria-controls="sbg-collapse" class="dungeon-header sbg"><h2>Shadowmoon Burial Grounds</h2></div>
+<div class="card-header" id="sob">
+<div data-toggle="collapse" data-target="#sob-collapse" aria-expanded="true" aria-controls="sob-collapse" class="dungeon-header sob"><h2>Siege of Boralus</h2></div>
 </div>
-<div id="sbg-collapse" class="collapse" aria-labelledby="sbg" data-parent="#accordion">
+<div id="sob-collapse" class="collapse" aria-labelledby="sob" data-parent="#accordion">
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
@@ -188,10 +188,10 @@ Scaling isn't linear. That means that going from 15s to 16s is way easier than g
 </div>
 
 <div class="card">
-<div class="card-header" id="tjs">
-<div data-toggle="collapse" data-target="#tjs-collapse" aria-expanded="true" aria-controls="tjs-collapse" class="dungeon-header tjs"><h2>Temple of the Jade Serpent</h2></div>
+<div class="card-header" id="db">
+<div data-toggle="collapse" data-target="#db-collapse" aria-expanded="true" aria-controls="db-collapse" class="dungeon-header db"><h2>The Dawnbreaker</h2></div>
 </div>
-<div id="tjs-collapse" class="collapse" aria-labelledby="tjs" data-parent="#accordion">
+<div id="db-collapse" class="collapse" aria-labelledby="db" data-parent="#accordion">
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
@@ -208,10 +208,10 @@ Scaling isn't linear. That means that going from 15s to 16s is way easier than g
 </div>
 
 <div class="card">
-<div class="card-header" id="av">
-<div data-toggle="collapse" data-target="#av-collapse" aria-expanded="true" aria-controls="av-collapse" class="dungeon-header av"><h2>The Azure Vault</h2></div>
+<div class="card-header" id="nw">
+<div data-toggle="collapse" data-target="#nw-collapse" aria-expanded="true" aria-controls="nw-collapse" class="dungeon-header nw"><h2>The Necrotic Wake</h2></div>
 </div>
-<div id="av-collapse" class="collapse" aria-labelledby="av" data-parent="#accordion">
+<div id="nw-collapse" class="collapse" aria-labelledby="nw" data-parent="#accordion">
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
@@ -228,10 +228,10 @@ Scaling isn't linear. That means that going from 15s to 16s is way easier than g
 </div>
 
 <div class="card">
-<div class="card-header" id="no">
-<div data-toggle="collapse" data-target="#no-collapse" aria-expanded="true" aria-controls="no-collapse" class="dungeon-header no"><h2>The Nokhud Offensive</h2></div>
+<div class="card-header" id="sv">
+<div data-toggle="collapse" data-target="#sv-collapse" aria-expanded="true" aria-controls="sv-collapse" class="dungeon-header sv"><h2>The Stonevault</h2></div>
 </div>
-<div id="no-collapse" class="collapse" aria-labelledby="no" data-parent="#accordion">
+<div id="sv-collapse" class="collapse" aria-labelledby="sv" data-parent="#accordion">
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
@@ -255,10 +255,6 @@ Scaling isn't linear. That means that going from 15s to 16s is way easier than g
 
 # Useful WeakAuras
 
-* [Dragonflight Season 1 Dungeons Pack](https://wago.io/DF-Dungeons) by Jodsderechte
-* [Thundering Helper](https://wago.io/thunder) by Ellesmere
-* [Quaking Helper](https://wago.io/QuakeInterrupt) by JackTheEgg
-* [Mythic+ Auto Marker](https://wago.io/1ctv3b91K) by Megawatt
 * [Mythic+ Timer](https://wago.io/M+Timer) by Reloe
 
 <hr>
