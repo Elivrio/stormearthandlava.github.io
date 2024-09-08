@@ -12,7 +12,7 @@ This guide was made possible by:
 
 - Amani (Discord: amanizandalari \| [Discord Server (RU)](https://discord.gg/vodovorot) \| [Twitch](https://www.twitch.tv/amanizandalari))
 - Bloodmallet (Discord: bloodmallet \| [Website](https://bloodmallet.com/))
-- Elivrio (Discord: elivrio, in-game: Tyrindra-Ysondre)
+- Elivrio (Discord: elivrio \| [Twitch](https://www.twitch.tv/elivrio))
 - Eokira (Discord: eokira)
 - Gaka (Discord: gakamoment)
 - HawkCorrigan (Discord: hawkcorrigan)

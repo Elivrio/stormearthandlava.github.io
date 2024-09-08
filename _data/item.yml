@@ -38,16 +38,29 @@ tww_flask_hast: <a href="https://www.wowhead.com/beta/item=212274/flask-of-tempe
 tww_flask_mast: <a href="https://www.wowhead.com/beta/item=212280/flask-of-tempered-mastery" target="blank">Flask of Tempered Mastery</a>
 tww_flask_vers: <a href="https://www.wowhead.com/beta/item=212277/flask-of-tempered-versatility" target="blank">Flask of Tempered Versatility</a>
 
-# DF Potions
+# TWW Potions
 
 tww_pot_tempered: <a href="https://www.wowhead.com/beta/item=212265/tempered-potion" target="blank">Tempered Potion</a>
 tww_pot_focus: <a href="https://www.wowhead.com/beta/item=212259/potion-of-unwavering-focus" target="blank">Potion of Unwavering Focus</a>
 tww_hpot: <a href="https://www.wowhead.com/beta/item=211880/algari-healing-potion" target="blank">Algari Healing Potion</a>
 
 
+# TWW enchants
+tww_weapon_depths: <a href="https://www.wowhead.com/item=223784/enchant-weapon-authority-of-the-depths" target="blank">Enchant Weapon - Authority of the Depths</a>
+tww_weapon_storm: <a href="https://www.wowhead.com/item=223762/enchant-weapon-stormriders-fury" target="blank">Enchant Weapon - Stormrider's Fury</a>
+tww_cloak_grace: <a href="https://www.wowhead.com/item=223731/enchant-cloak-chant-of-winged-grace" target="blank">Enchant Cloak - Chant of Winged Grace</a>
+tww_chest_radiancce: <a href="https://www.wowhead.com/item=223692/enchant-chest-crystalline-radiance" target="blank">Enchant Chest - Crystalline Radiance</a>
+tww_wrist_avoid: <a href="https://www.wowhead.com/item=223713/enchant-bracer-chant-of-armored-avoidance" target="blank">Enchant Bracer - Chant of Armored Avoidance</a>
+tww_legs_sunset: <a href="https://www.wowhead.com/item=222893/sunset-spellthread" target="blank">Sunset Spellthread</a>
+tww_boots_defend: <a href="https://www.wowhead.com/item=223656/enchant-boots-defenders-march" target="blank">Enchant Boots - Defender's March</a>
+tww_ring_haste: <a href="https://www.wowhead.com/item=223674/enchant-ring-radiant-haste" target="blank">Enchant Ring - Radiant Haste</a>
 
-
-
+# TWW consumables
+tww_mana_oil: <a href="https://www.wowhead.com/item=224107/algari-mana-oil" target="blank">Algari Mana Oil</a>
+tww_rune: <a href="https://www.wowhead.com/item=224572/crystallized-augment-rune" target="blank">Crystallized Augment Rune</a>
+tww_feast: <a href="https://www.wowhead.com/item=220425/feast-of-the-midnight-masquerade" target="blank">Feast of the Midnight Masquerade</a>
+tww_diamond: <a href="https://www.wowhead.com/item=213743/culminating-blasphemite" target="blank">Culminating Blasphemite</a>
+tww_deadly_emerald: <a href="https://www.wowhead.com/item=213479/deadly-emerald" target="blank">Deadly Emerald</a>
 
 
 

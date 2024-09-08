@@ -12,11 +12,10 @@ big_article: true
 This guide was made possible by:
 
 - Amani (Discord: amanizandalari \| [Discord Server (RU)](https://discord.gg/vodovorot) \| [Twitch](https://www.twitch.tv/amanizandalari))
-- Elivrio (Discord: elivrio, in-game: Tyrindra-Ysondre)
+- Elivrio (Discord: elivrio \| [Twitch](https://www.twitch.tv/elivrio))
 - Eokira (Discord: eokira)
 - Gaka (Discord: gakamoment)
 - HawkCorrigan (Discord: hawkcorrigan)
-- James⚡ (Discord: james.phr \| [Twitch](https://www.twitch.tv/judgejames) \| [Twitter](https://twitter.com/_judgejames_))
 
 Information on this page is written with the assumption that you understand the new priority list and talents in Dragonflight Season 1. If you have not done so, we highly recommend reading our other resources to learn about them!
 

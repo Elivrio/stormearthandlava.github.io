@@ -13,11 +13,10 @@ big_article: true
 This guide was made possible by:
 
 - Amani (Discord: amanizandalari \| [Discord Server (RU)](https://discord.gg/vodovorot) \| [Twitch](https://www.twitch.tv/amanizandalari))
-- Elivrio (Discord: elivrio, in-game: Tyrindra-Ysondre)
+- Elivrio (Discord: elivrio \| [Twitch](https://www.twitch.tv/elivrio))
 - Eokira (Discord: eokira)
 - Gaka (Discord: gakamoment)
 - HawkCorrigan (Discord: hawkcorrigan)
-- James⚡ (Discord: james.phr \| [Twitch](https://www.twitch.tv/judgejames) \| [Twitter](https://twitter.com/_judgejames_))
 
 Information on this page is written with the assumption that you understand the new priority list and talents in The War Within Season 1. If you have not done so, we highly recommend reading our other resources to learn about them!
 
@@ -78,8 +77,8 @@ At level 12, the Xal'atath's Bargains are void. Instead, they are replaced by {{
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
-- {{ site.data.spell.pct }} is pretty much required in here, allowing you to dispell 
-  - [Revolting Volley](https://www.wowhead.com/beta/spell=448248/revolting-volley) from [Bloodstained Webmage](https://www.wowhead.com/npc=223253/bloodstained-webmage), 
+- {{ site.data.spell.pct }} is pretty much required in here, allowing you to dispell
+  - [Revolting Volley](https://www.wowhead.com/beta/spell=448248/revolting-volley) from [Bloodstained Webmage](https://www.wowhead.com/npc=223253/bloodstained-webmage),
   - [Poison Bolt](https://www.wowhead.com/beta/spell=436322/poison-bolt) from [Atik](https://www.wowhead.com/npc=217533/atik),
   - [Venom Volley](https://www.wowhead.com/beta/spell=433841/venom-volley)  from [Blood Overseer](https://www.wowhead.com/beta/npc=216364/blood-overseer),
   - [Cultivated Poison](https://www.wowhead.com/beta/spell=461487/cultivated-poisons) on [Ki'Katal](https://www.wowhead.com/beta/npc=215407/kikatal-the-harvester), the last boss. You have to **wait for group to spread**.
@@ -108,7 +107,7 @@ Given the sheer number of Nature damage source, {{ site.data.spell.elemental_res
 
 ### Notable Talent Choices
 {{ site.data.spell.pct }} helps throughout the dungeon. It's maybe not required, but fairly recommended. Some of its uses include:
-- [Venomous Spray](https://www.wowhead.com/beta/spell=434137/venomous-spray) cast by [Royal Venomshell](https://www.wowhead.com/beta/npc=220730/royal-venomshell) on your group 
+- [Venomous Spray](https://www.wowhead.com/beta/spell=434137/venomous-spray) cast by [Royal Venomshell](https://www.wowhead.com/beta/npc=220730/royal-venomshell) on your group
 - [Venom Strike](https://www.wowhead.com/beta/spell=443397/venom-strike) cast by [Sureki Venomblade](https://www.wowhead.com/beta/npc=220193/sureki-venomblade) on your tank.
 
 {{ site.data.spell.tremor_totem }} is not required but helps if an allies get hit by the [Terrorize](https://www.wowhead.com/beta/spell=434779/terrorize) frontal on first boss, [Orator Krix'vizk](<https://www.wowhead.com/npc=216619/orator-krixvizk>).

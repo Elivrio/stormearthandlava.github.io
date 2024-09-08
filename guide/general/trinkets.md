@@ -26,33 +26,53 @@ var whTooltips = {
 
 We do not have the ability to pick two trinkets and be optimal everywhere. The trinkets you use will be a result of what is available to you and what content you're currently tackling. Generally, the more options you have the better you can tailor your trinket use.
 
-## Raid
-
 **This is not a ranking guide**. Check the trinket overview section below to see how each trinket may be useful when deciding to use them.
 
-#### Good Raid trinkets:
-
-#### Honorable Mentions:
-
-<br>
-
-## Mythic +
-
-Again, **this is not a ranking guide**. Check the trinket overview section below to see how each trinket may be useful when deciding to use them.
-
-#### Good Mythic+ trinkets:
-
-#### Honorable Mentions:
+## Great value trinkets
+- {{ site.data.gear.sacbrood }} from Ara-Kara, City of Echoes
+- {{ site.data.gear.ovinax_egg }} from Broodtwister Ovi'nax
+- {{ site.data.gear.spymasters }} from Silken Court
+- {{ site.data.gear.gale }} from Grim Batol
+- {{ site.data.gear.changeling }} from Mists of Tirna Scithe
 
 <hr>
 
 # Season 1 trinkets Overview
 
 ## Passive trinkets:
+- (S+) {{ site.data.gear.sacbrood }} from Ara-Kara, City of Echoes: High value at all time. Lot of int, static haste, dot damage. Contender for best trinket of the patch.
+
+- (S+) {{ site.data.gear.ovinax_egg }} from Broodtwister Ovi'Nax: you actually never want to use the effect of this trinket, because our secondaries are as good as our primary. Insanely good, potentially one of the best of the patch.
+
+- (S) {{ site.data.gear.gale }} from Grim Batol: you can easily maintain high stacks, making this trinket highly valuable. Kind of weird of pull with lust since it takes some time to scale.
+
+- (S) {{ site.data.gear.changeling }} from Mists of Tirna Scithe: This is a weird one. We could guarantee haste from it depending on the food buff we used, but since we use primary food buff, we're unsure if this will be consistent. Depending on how it's implemented, it's value will vary a lot.
+
+- (A) {{ site.data.gear.crystal }} from the Dawnbreaker: a random secondary is not as good as a guaranteed one, making this trinket slightly less good than optimal trinkets. Still good and reliable nonetheless.
+
+- (B){{ site.data.gear.satchel }} from Necrotic Wake: Damage on a proc, mostly Single Target but with some AoE, decent until better.
+
+- (B){{ site.data.gear.nautilus }} from Siege of Boralus: Single Target damage on a proc, decent until better.
+
+- (C) {{ site.data.gear.edict }} from Ara-Kara, City of Echoes: Globally it's just nice to let this trinket be. Both the mastery and damage are nice, but not as good as other options.
+
+- (C) {{ site.data.gear.cirral }} from City of Threads: lot of effects that are super unreliable. Mostly a pass.
 
 <br>
 
 ## On Use trinkets:
+
+- (S+) {{ site.data.gear.spymasters }} from Silken Court: We don't like mastery but the effect makes it all worth it. Slow building a lot of int over time. Use it at max stack or or on last use of {{ site.data.spell.sk }} you would get out of the fight. It's very good if you use it properly.
+
+- (A) {{ site.data.gear.spellforge }} from Bloodbound Horror: it does line up pretty well with {{ site.data.spell.pw }}, and gives haste, making this trinket very solid. I do believe it's not the best one, but not by much.
+
+- (A) {{ site.data.gear.transmitter }} from Nexus-Princess Ky'Veza: Our lack of burst make this trinket a little less than optimal, but haste is always good making this trinket reliable.
+
+- (C) {{ site.data.gear.toll }} from the Dawnbreaker: Neat raid trinket, can be used as a cheap "defensive cd" if it's really needed. Globally a pass.
+
+- (D) {{ site.data.gear.mandate }} from Ansurek: Big nuke on a cooldown. Sadly, this is a bit undertuned. Could have some niche uses if nuking a target is required.
+
+- (D) {{ site.data.gear.speaker }} from Stonevault: Mastery, terrible Single Target, bad AoE, just a hard pass.
 
 <hr>
 
