@@ -149,7 +149,7 @@ If you find yourself using this build on 5 or more targets it is less than ideal
 </div>
 <div class="card">
 <div class="card-header" id="liwlr">
-<div data-toggle="collapse" data-target="#liwlr-collapse" aria-expanded="false" aria-controls="liwlr-collapse" class="builds-header liwlr"><h2>Bandaid 2.0</h2></div>
+<div data-toggle="collapse" data-target="#liwlr-collapse" aria-expanded="false" aria-controls="liwlr-collapse" class="builds-header liwlr"><h2>Flashing Lightning</h2></div>
 </div>
 <div id="liwlr-collapse" class="collapse" aria-labelledby="liwlr" data-parent="#accordion-psurge">
 <div class="card-body" markdown="1">
@@ -181,15 +181,19 @@ Similarly, versatility will give flat Damage Reduction, increasing your chances 
 
 ## Key Notes
 
-The build is really simple if you've played Elemental Shaman before. You want to keep your {{ site.data.spell.lvb }} charges rolling. You want to use {{ site.data.spell.eb }} to dump maelstrom. You want to use {{ site.data.spell.if }} because of its high value. You want to maximise your {{ site.data.spell.mote }} usage.
+This build is one of the easiest to play in the history of WoW. Basically, you spam {{ site.data.spell.lb }} to get more usages of {{ site.data.spell.pw }}, {{ site.data.spell.ancestral_swiftness }}, {{ site.data.spell.sk }} and {{ site.data.spell.se }} thanks to {{ site.data.spell.fol }}.
 
-With {{ site.data.spell.if }}, buffed {{ site.data.spell.frs }} and {{ site.data.spell.lvb }}, you can often move during your rotation. Try to take advantage of those instant casts to move where you went to be next.
+Spamming {{ site.data.spell.lb }} becomes very fast with high {{ site.data.spell.wind_gust }} stacks and makes {{ site.data.spell.cota }} cast even more while they are up.
 
-{{ site.data.spell.eq }} replaces {{ site.data.spell.eb }} at 4 or more targets.
+You still do not want to overcap maelstrom. {{ site.data.spell.es }} does a lot of damage and most importantly provides both {{ site.data.spell.lr }} and {{ site.data.spell.sop }}.
 
-{{ site.data.spell.dre }} procs do not impact rotation priority and should be read the same regardless. In practice this means 'filler' spells like {{ site.data.spell.if }} and buffed {{ site.data.spell.frs }} are eliminated when {{ site.data.spell.dre }} procs happen *unless you have to move* because {{ site.data.spell.lvb }} will always be available during them. You will also continue to spend maelstrom on {{ site.data.spell.eb }} as usual.
+You do not want to cast {{ site.data.spell.lvb }} ever outside of the opener or to proc {{ site.data.spell.splintered_elements }}. Nothing. Else. However, when you do cast {{ site.data.spell.lvb }}, you want to take advantage of {{ site.data.spell.mote }} with {{ site.data.spell.es }}.
 
-If talented, use {{ site.data.spell.lmt }} on CD if no adds are going to spawn soon.
+If talented, use {{ site.data.spell.lmt }} alongside {{ site.data.spell.pw }} to get more value from {{ site.data.spell.splintered_elements }}.
+
+The thing that will make you gain a lot of damage is your maelstrom management. You want to pool at least 110 maelstrom when {{ site.data.spell.sk }} is close to being available, to easily buff both {{ site.data.spell.lb }} with {{ site.data.spell.sop }}.
+
+{{ site.data.spell.eq }} replaces {{ site.data.spell.es }} at 2 or more targets. {{ site.data.spell.cl }} replaces {{ site.data.spell.lb }} at 2 or more targets except on 2 targets with {{ site.data.spell.sop }}.
 
 <hr>
 ## Opener
@@ -205,70 +209,70 @@ The <span style="color:red">red arrow</span> indicates the time the boss is pull
     <div class="arrow pull"></div>
     <div class="skill lvb"><span>LvB</span></div>
     <div class="arrow"></div>
+    <div class="skill lvb"><span>LvB</span></div>
+    <div class="arrow"></div>
+    <div class="skill lvb"><span>LvB</span></div>
+    <div class="arrow"></div>
+    <div class="skill lb"><span>LB</span></div>
+    <div class="arrow"></div>
+    <div class="skill es"><span>ES</span></div>
+    <div class="arrow"></div>
     <div class="skill lb"><span>LB</span></div>
 </div>
 
-After that, spam {{ site.data.spell.lb }} as much as possible.
+The goal of this opener is to use {{ site.data.spell.lvb }} to generate enough maelstrom to cast {{ site.data.spell.es }} and get {{ site.data.spell.sop }} for {{ site.data.spell.lb }} with {{ site.data.spell.sk }}.
+
+The problem with this opener is that the {{ site.data.spell.es }} is not guaranteed. You need to get an additional 4 maelstrom from overloads to be able to execute it. Which means there's some variance to it. Still, it allows you to fish for {{ site.data.spell.potm }} and still guarantee some value off of {{ site.data.spell.mote }}.
+
+Note that {{ site.data.spell.se }} is indeed cast before {{ site.data.spell.sk }} in the opener because of {{ site.data.spell.fury_of_the_storms }}. The Lightning Elemental from {{ site.data.spell.fury_of_the_storms }} does more DPS than {{ site.data.spell.se }} and that makes {{ site.data.spell.sk }} more valuable if you cast it second.
 
 <hr>
 
 ## Rotation / Priority List
 
 ### 1 Target
+1. {{ site.data.spell.se }} on cooldown.
 1. {{ site.data.spell.ancestral_swiftness }} on cooldown.
-1. {{ site.data.spell.se }} if it is available. If you're talented into {{ site.data.spell.echo_of_the_elementals }}, make sure to wait until your current elemental expires (or to dismiss it). The previous Elemental needs to die or you won't get the lesser One.
 1. {{ site.data.spell.pw }} on cooldown.
 1. Maintain {{ site.data.spell.fs }} on your target at all times, don't forget {{ site.data.spell.pw }} applies one!
 1. {{ site.data.spell.sk }} on cooldown
 1. {{ site.data.spell.lb }} with {{ site.data.spell.sop }}.
 1. {{ site.data.spell.es }} with {{ site.data.spell.mote }}.
-1. With 40 maelstrom, {{ site.data.spell.lvb }} to gain {{ site.data.spell.mote}}.
-1. {{ site.data.spell.es }} if you are close to capping maelstrom.
+1. With 45 maelstrom and {{ site.data.spell.pw}}, use {{ site.data.spell.lvb }}.
+1. {{ site.data.spell.es }} if you are close to capping maelstrom or to gain {{ site.data.spell.sop }}.
 1. {{ site.data.spell.lb }}.
 
-<br>
 ### 2 Targets
-If you find yourself using this build on 2 or more targets it is less than ideal.
- 1. {{ site.data.spell.fe }} if it is available and there is no reason to hold its use.
- 1. Maintain {{ site.data.spell.fs }} on both targets at all times, don't forget {{ site.data.spell.pw }} applies one!
- 1. {{ site.data.spell.pw }} if it is available
- 1. {{ site.data.spell.lvb }} if {{ site.data.spell.lvs }} buff is active
- 1. {{ site.data.spell.eb }} if you have {{ site.data.spell.lvb }} on at least one charge, preferably with {{ site.data.spell.mote }} buff active
- 1. {{ site.data.spell.lvb }}
- 1. {{ site.data.spell.cl }}
+1. {{ site.data.spell.se }} on cooldown.
+1. {{ site.data.spell.ancestral_swiftness }} on cooldown.
+1. {{ site.data.spell.pw }} on cooldown.
+1. {{ site.data.spell.sk }} on cooldown
+1. {{ site.data.spell.lb }} with {{ site.data.spell.sop }}.
+1. {{ site.data.spell.eq }} with {{ site.data.spell.mote }}.
+1. With 45 maelstrom and {{ site.data.spell.pw}}, use {{ site.data.spell.lvb }}.
+1. {{ site.data.spell.eq }} if you are close to capping maelstrom or to gain {{ site.data.spell.sop }}.
+1. {{ site.data.spell.cl }}.
 
-<br>
-### 3 Targets
-If you find yourself using this build on 3 or more targets it is less than ideal
- 1. {{ site.data.spell.fe }} if it is available and there is no reason to hold its use.
- 1. Maintain {{ site.data.spell.fs }} on all targets at all times, don't forget {{ site.data.spell.pw }} applies one!
- 1. {{ site.data.spell.pw }} if it is available
- 1. {{ site.data.spell.lvb }} if {{ site.data.spell.lvs }} buff is active
- 1. {{ site.data.spell.eb }} if you have {{ site.data.spell.lvb }} on at least one charge, preferably with {{ site.data.spell.mote }} buff active
- 1. {{ site.data.spell.lvb }}
- 1. {{ site.data.spell.cl }}
+### 3-5 Targets
+1. {{ site.data.spell.se }} on cooldown.
+1. {{ site.data.spell.ancestral_swiftness }} on cooldown.
+1. {{ site.data.spell.pw }} on cooldown.
+1. {{ site.data.spell.sk }} on cooldown
+1. {{ site.data.spell.eq }} with {{ site.data.spell.mote }}.
+1. With 45 maelstrom and {{ site.data.spell.pw}}, use {{ site.data.spell.lvb }}.
+1. {{ site.data.spell.eq }} if you are close to capping maelstrom or to gain {{ site.data.spell.sop }}.
+1. {{ site.data.spell.cl }}.
 
-<br>
-### 4 Targets
-If you find yourself using this build on 4 or more targets it is less than ideal
- 1. {{ site.data.spell.fe }} if it is available and there is no reason to hold its use.
- 1. Maintain {{ site.data.spell.fs }} on all targets at all times, don't forget {{ site.data.spell.pw }} applies one!
- 1. {{ site.data.spell.pw }} if it is available
- 1. {{ site.data.spell.lvb }} if {{ site.data.spell.lvs }} buff is active
- 1. {{ site.data.spell.eq }} preferably with {{ site.data.spell.mote }} buff active
- 1. {{ site.data.spell.lvb }}
- 1. {{ site.data.spell.cl }}
-
-<br>
-### 5+ Targets
-If you find yourself using this build on 5 or more targets it is less than ideal
- 1. {{ site.data.spell.fe }} if it is available and there is no reason to hold its use.
- 1. Maintain {{ site.data.spell.fs }} on all targets at all times, don't forget {{ site.data.spell.pw }} applies one!
- 1. {{ site.data.spell.pw }} if it is available
- 1. {{ site.data.spell.lvb }} if {{ site.data.spell.lvs }} buff is active
- 1. {{ site.data.spell.eq }} preferably with {{ site.data.spell.mote }} buff active
- 1. {{ site.data.spell.lvb }}
- 1. {{ site.data.spell.cl }}
+### 6+ Targets
+1. {{ site.data.spell.se }} on cooldown.
+1. {{ site.data.spell.ancestral_swiftness }} on cooldown.
+1. {{ site.data.spell.pw }} on cooldown.
+1. {{ site.data.spell.sk }} on cooldown
+1. {{ site.data.spell.cl }} with {{ site.data.spell.sop }}.
+1. {{ site.data.spell.eq }} with {{ site.data.spell.mote }}.
+1. With 45 maelstrom and {{ site.data.spell.pw}}, use {{ site.data.spell.lvb }}.
+1. {{ site.data.spell.eq }} if you are close to capping maelstrom or to gain {{ site.data.spell.sop }}.
+1. {{ site.data.spell.cl }}.
 
 </div>
 </div>
