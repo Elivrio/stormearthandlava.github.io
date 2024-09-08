@@ -38,14 +38,14 @@ So how do you do that? Quite simply frankly. You clear targets, cast your Elemen
 ### 1. Using Liquid Magma Totem to spread Flame Shock
 
 There's some logic in how {{ site.data.spell.lmt }} applies {{ site.data.spell.fs }}:
-- If there are 3 targets without {{ site.data.spell.fs }} in range, {{ site.data.spell.lmt }} will smartly apply {{ site.data.spell.fs }} to them. 
-- If there aren't, it will target either random or enemies nearest to it. 
+- If there are 3 targets without {{ site.data.spell.fs }} in range, {{ site.data.spell.lmt }} will smartly apply {{ site.data.spell.fs }} to them.
+- If there aren't, it will target either random or enemies nearest to it.
 
 It's also worth noting that {{ site.data.spell.lmt }} is very bad with verticality and often misses mobs that are above or below it (like on a hill).
 
-Going into a pack with some leftover maelstrom, you'll want to do something like this to spread {{ site.data.spell.fs }} efficently : 
-1. {{ site.data.spell.pw }} 
-1. {{ site.data.spell.eq }} 
+Going into a pack with some leftover maelstrom, you'll want to do something like this to spread {{ site.data.spell.fs }} efficently :
+1. {{ site.data.spell.pw }}
+1. {{ site.data.spell.eq }}
 1. {{ site.data.spell.fs }} with {{site.data.spell.sop }}
 1. {{ site.data.spell.lmt }}
 
@@ -53,8 +53,8 @@ Going into a pack with some leftover maelstrom, you'll want to do something like
 ### 2. Liquid Magma Totem also does damage
 {{ site.data.spell.lmt }} is not only a spreading tool, it does a lot of damage and scales with haste.
 if you are planning to use 2 {{ site.data.spell.lmt }} in a pack thanks to :TR:, the second one should (almost) never be used as a spreadtool. Since {{ site.data.spell.lmt }} scales with haste, you want to get :SpE: before  using that second totem. Cast sequence will be similar to this going into a pack with leftover maelstrom:
-1. {{ site.data.spell.pw }} 
-1. {{ site.data.spell.eq }} 
+1. {{ site.data.spell.pw }}
+1. {{ site.data.spell.eq }}
 1. {{ site.data.spell.fs }} with {{site.data.spell.sop }}
 1. {{ site.data.spell.lmt }}
 1. {{ site.data.spell.lvb }}
@@ -63,7 +63,7 @@ if you are planning to use 2 {{ site.data.spell.lmt }} in a pack thanks to :TR:,
 
 <br>
 ### 3. Liquid Magma Totem is a frail Lady
-Do. Not. Kill. {{ site.data.spell.lmt }}. It can rip aggro if you put it down before tank gets aggro and it will get one shotted. 
+Do. Not. Kill. {{ site.data.spell.lmt }}. It can rip aggro if you put it down before tank gets aggro and it will get one shotted.
 
 Sure, it already spread {{ site.data.spell.fs }} but you're still losing a lot of damage.
 
@@ -74,13 +74,13 @@ Casting {{ site.data.spell.lava_burst }} has an ever increasing chance to trigge
 
 <img src="/assets/img/guide/DRE_proc_chart.png" alt="DRE proc Chart">
 
-This behaviour implies low chance of back to back procs, as well as low chance of no procs for a extended period. 
+This behaviour implies low chance of back to back procs, as well as low chance of no procs for a extended period.
 
 What becomes apparent is that you can and should play around your current proc chance. Let's say you're at the end of a mythic+ pack and your {{ site.data.spell.dre }} counter is at 11%. You're likely to proc {{ site.data.spell.asc }} in your next 3 to 5 {{ site.data.spell.lvb }} casts. If you stop casting {{ site.data.spell.lvb }} until next pack, you increase your chance of proccing {{ site.data.spell.asc }} when it matters in the next pack instead of proccing it on almost dead mobs.
 
 This weakaura (must include link, ping me in Discord if I forgot to update this line) will help you track your {{ site.data.spell.dre }} counter in game and play around it.
 
-<hr> 
+<hr>
 # Flash of Lightning
 
 Sometimes assessing the strength of talents is tricky, arguably one of the best examples of this is {{ site.data.spell.fol }}.
@@ -121,8 +121,12 @@ Spells that it doesn't work with but maybe should?
 <hr>
 # Future ideas
 ### New Icefury
-Deck of card? 
-### Fusion of the Elements 
+Deck of card?
+The new {{ site.data.spell.if }} has 12% chance to proc off of {{ site.data.spell.lvb }}. But to avoid long droughts and high rolls, the spell uses Deck of Card randomness. The game has a list of 25 elements, 3 of them are procs and 22 are nothing. When you can {{ site.data.spell.lvb }}, it fetches the next element in the list and gives you a proc if it was one. When it reaches the end of the list, it shuffles it then you can redraw from it normally.
+
+Now what can we do with that information? Honestly not much. But i
+
+### Fusion of the Elements
 How to efficiently proc it
 
 <hr>
