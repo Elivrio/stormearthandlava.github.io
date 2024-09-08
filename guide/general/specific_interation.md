@@ -102,10 +102,10 @@ This is because the game does no real work to inform you what "Nature" spells ar
 - {{ site.data.spell.lightning_lasso }}
 - {{ site.data.spell.ns }}
 - {{ site.data.spell.pct }}
-- {{ site.data.spell.pw }} (soon TM)
+- {{ site.data.spell.pw }}
 - {{ site.data.spell.ankh }}
 - {{ site.data.spell.swg }}
-- {{ site.data.spell.sbt }} (soon TM)
+- {{ site.data.spell.sbt }}
 - {{ site.data.spell.se }}
 - {{ site.data.spell.sk }}
 - {{ site.data.spell.thunderstorm }}
@@ -119,16 +119,31 @@ Spells that it doesn't work with but maybe should?
 - {{ site.data.spell.spirit_walk }}
 
 <hr>
-# Future ideas
-### New Icefury
-Deck of card?
-The new {{ site.data.spell.if }} has 12% chance to proc off of {{ site.data.spell.lvb }}. But to avoid long droughts and high rolls, the spell uses Deck of Card randomness. The game has a list of 25 elements, 3 of them are procs and 22 are nothing. When you can {{ site.data.spell.lvb }}, it fetches the next element in the list and gives you a proc if it was one. When it reaches the end of the list, it shuffles it then you can redraw from it normally.
+# How Ancestors work?
+Ancestors are the guardians created by {{ site.data.spell.call_of_the_ancestor }}. Those ancestors follow the specific rules detailed below:
 
-Now what can we do with that information? Honestly not much. But i
+### General rules:
+-  Multiple {{ site.data.spell.cota }} can be active at a single time.
+- {{ site.data.spell.cota }} stay idle if the player doesn't cast spells.
+- {{ site.data.spell.cota }} are based on the race of the Shaman.
+- {{ site.data.spell.cota }} follow the Shaman (similar to Demonology Warlock Imps).
+- {{ site.data.spell.cota }} can body pull mobs.
+- {{ site.data.spell.cota }} do not necessarily target the same enemy as you.
+- {{ site.data.spell.cota }} scale with the Shaman’s Versatility, Critical Strike and the Elemental Damage part of Mastery.
+- {{ site.data.spell.elemental_fury }} and {{ site.data.spell.primordial_fury }} do not apply to the Ancestor.
 
-### Fusion of the Elements
-How to efficiently proc it
-
-<hr>
-
-Are there other tips and tricks that you think should make the list? Feel free to ping elivrio in Earthshrine and let me know how you feel!
+### Cast Behaviour:
+- {{ site.data.spell.cota }} will cast {{ site.data.spell.lvb }} from any single-target damaging ability you cast.
+- {{ site.data.spell.cota }} {{ site.data.spell.lvb }} will always critical strike regardless if the Shaman’s {{ site.data.spell.fs }} is applied.
+- {{ site.data.spell.cota }} will cast {{ site.data.spell.cl }} from any AoE damaging ability you cast.
+  - {{ site.data.spell.cota }} {{ site.data.spell.cl }} only hits 2 targets.
+  - {{ site.data.spell.cota }} {{ site.data.spell.cl }} can critical strike independently from the Shaman.
+- If the Shaman casts an AoE ability on a single target:
+  - {{ site.data.spell.cota }} will attempt to cast {{ site.data.spell.cl }} if 2+ mobs are present within line of sight (even if they are not your target).
+  - If none are, then {{ site.data.spell.cota }} will cast {{ site.data.spell.cl }} on a single target.
+- {{ site.data.spell.cota }}'s {{ site.data.spell.lvb }} and {{ site.data.spell.cl }} casts:
+  - Do not generate Maelstrom for the Shaman.
+  - Do not overload.
+  - Do not interact with the player’s overloads.
+- {{ site.data.spell.cota }} will cast {{ site.data.spell.healing_surge }} from any single-target healing ability.
+- {{ site.data.spell.cota }} will cast {{ site.data.spell.chain_heal }} from any AoE healing ability.

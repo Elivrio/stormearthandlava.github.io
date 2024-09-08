@@ -50,9 +50,9 @@ We do not have the ability to pick two trinkets and be optimal everywhere. The t
 
 - (A) {{ site.data.gear.crystal }} from the Dawnbreaker: a random secondary is not as good as a guaranteed one, making this trinket slightly less good than optimal trinkets. Still good and reliable nonetheless.
 
-- (B){{ site.data.gear.satchel }} from Necrotic Wake: Damage on a proc, mostly Single Target but with some AoE, decent until better.
+- (B) {{ site.data.gear.satchel }} from Necrotic Wake: Damage on a proc, mostly Single Target but with some AoE, decent until better.
 
-- (B){{ site.data.gear.nautilus }} from Siege of Boralus: Single Target damage on a proc, decent until better.
+- (B) {{ site.data.gear.nautilus }} from Siege of Boralus: Single Target damage on a proc, decent until better.
 
 - (C) {{ site.data.gear.edict }} from Ara-Kara, City of Echoes: Globally it's just nice to let this trinket be. Both the mastery and damage are nice, but not as good as other options.
 

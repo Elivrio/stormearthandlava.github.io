@@ -387,6 +387,7 @@ tempest: <a href="https://www.wowhead.com/spell=157375/tempest" target="blank">T
 # --------------------- The War Within / Hero Talents ---------------------
 # --------------------- Farseer ---------------------
 call_of_the_ancestor: <a href="https://www.wowhead.com/beta/spell=443450/call-of-the-ancestors?spellModifier=137040" target="blank">Call of the Ancestors</a>
+cota: <a href="https://www.wowhead.com/beta/spell=443450/call-of-the-ancestors?spellModifier=137040" target="blank">Ancestors</a>
 latent_wisdom: <a href="https://www.wowhead.com/beta/spell=443449/latent-wisdom" target="blank">Latent Wisdom</a>
 ancient_fellowship: <a href="https://www.wowhead.com/beta/spell=443423/ancient-fellowship" target="blank">Ancient Fellowship</a>
 heed_my_call: <a href="https://www.wowhead.com/beta/spell=443444/heed-my-call" target="blank">Heed My Call</a>

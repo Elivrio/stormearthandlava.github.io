@@ -14,8 +14,6 @@ categories:
       url: /guide/general/specific_interation.html
     - title: Consumables
       url: /guide/general/consumables.html
-    - title: Gearing
-      url: /guide/general/gear.html
     - title: Macros
       url: /guide/general/macros.html
     - title: Trinkets
@@ -24,10 +22,6 @@ categories:
   subcategories:
     - title : TWW Season 1
       url: /guide/mythic_plus/TWW_season_1.html
-    - title : DF Season 2
-      url: /guide/mythic_plus/DF_season_2.html
-    - title : DF Season 1
-      url : /guide/mythic_plus/DF_season_1.html
 - title: Raids
   subcategories:
     - title: Nerub'ar Palace
