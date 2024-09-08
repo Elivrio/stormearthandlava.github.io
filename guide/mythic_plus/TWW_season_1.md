@@ -78,8 +78,15 @@ At level 12, the Xal'atath's Bargains are void. Instead, they are replaced by {{
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
-Placeholder text for the Ara-Kara, City of Echoes
+- {{ site.data.spell.pct }} is pretty much required in here, allowing you to dispell 
+  - [Revolting Volley](https://www.wowhead.com/beta/spell=448248/revolting-volley) from [Bloodstained Webmage](https://www.wowhead.com/npc=223253/bloodstained-webmage), 
+  - [Poison Bolt](https://www.wowhead.com/beta/spell=436322/poison-bolt) from [Atik](https://www.wowhead.com/npc=217533/atik),
+  - [Venom Volley](https://www.wowhead.com/beta/spell=433841/venom-volley)  from [Blood Overseer](https://www.wowhead.com/beta/npc=216364/blood-overseer),
+  - [Cultivated Poison](https://www.wowhead.com/beta/spell=461487/cultivated-poisons) on [Ki'Katal](https://www.wowhead.com/beta/npc=215407/kikatal-the-harvester), the last boss. You have to **wait for group to spread**.
 
+{{ site.data.spell.tremor_totem }} is not required but can help if [Horrifying Shrill](https://www.wowhead.com/beta/spell=434802/horrifying-shrill) from [Ixin](https://www.wowhead.com/beta/npc=217531/ixin) is going to go through.
+
+Given the sheer number of Nature damage source, {{ site.data.spell.elemental_resistance }} (paired with {{ site.data.spell.healing_stream_totem }}) might become very strong in higher keys, even if it is not a reliable source of DR.
 <hr>
 
 ### Recommended builds
@@ -100,7 +107,18 @@ Placeholder text for the Ara-Kara, City of Echoes
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
-Placeholder text for the City of Threads
+{{ site.data.spell.pct }} helps throughout the dungeon. It's maybe not required, but fairly recommended. Some of its uses include:
+- [Venomous Spray](https://www.wowhead.com/beta/spell=434137/venomous-spray) cast by [Royal Venomshell](https://www.wowhead.com/beta/npc=220730/royal-venomshell) on your group 
+- [Venom Strike](https://www.wowhead.com/beta/spell=443397/venom-strike) cast by [Sureki Venomblade](https://www.wowhead.com/beta/npc=220193/sureki-venomblade) on your tank.
+
+{{ site.data.spell.tremor_totem }} is not required but helps if an allies get hit by the [Terrorize](https://www.wowhead.com/beta/spell=434779/terrorize) frontal on first boss, [Orator Krix'vizk](<https://www.wowhead.com/npc=216619/orator-krixvizk>).
+
+{{ site.data.spell.elemental_resistance }} (paired with {{ site.data.spell.healing_stream_totem }}) might become very relevant in higher keys given the sheer number of Nature and Frost damage source in City of Threads. Even if it is not a reliable source of DR, you might consider using it notably against:
+- the Second boss, [Fangs of the Queen](https://www.wowhead.com/npc=216648/nx), during [Ice Sickles](https://www.wowhead.com/beta/spell=440238/ice-sickles) and [Rime Dagger](https://www.wowhead.com/beta/spell=440468/rime-dagger),
+- the mini boss in the last room, [Hulking Warshell](https://www.wowhead.com/beta/npc=221103/hulking-warshell), during [Ravenous Swarm](https://www.wowhead.com/beta/spell=443507/ravenous-swarm) and [Tremor Slam](https://www.wowhead.com/beta/spell=447271/tremor-slam),
+- the Last boss, [Izo the Grand Splicer](https://www.wowhead.com/npc=216658/izo-the-grand-splicer), during [Tremor Slam](https://www.wowhead.com/beta/spell=437700/tremor-slam)
+
+{{ site.data.spell.spirit_walk }} can be used to end [Umbreal Weave](https://www.wowhead.com/beta/spell=439324/umbral-weave) from [Elder Shadeweaver](https://www.wowhead.com/beta/npc=221102/elder-shadeweaver) and [Izo the Grand Splicer](https://www.wowhead.com/npc=216658/izo-the-grand-splicer) early.
 
 <hr>
 
@@ -122,8 +140,7 @@ Placeholder text for the City of Threads
 <div class="card-body" markdown="1">
 
 ### Notable Talent Choices
-Placeholder text for Grim Batol
-
+{{ site.data.spell.cleanse_spirit }} is very recommended in this dungeon to help your party deal with [Curse of Entropy](<https://www.wowhead.com/beta/spell=450095/curse-of-entropy>) on the third boss ([Drahga Shadowburner](https://www.wowhead.com/beta/npc=40319/drahga-shadowburner/mythic-encounter-journal)) and [Enveloping Shadowflame](https://www.wowhead.com/beta/spell=451224/enveloping-shadowflame) from Twilight Warlocks.
 <hr>
 
 ### Recommended builds

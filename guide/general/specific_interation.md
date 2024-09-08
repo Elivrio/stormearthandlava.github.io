@@ -52,7 +52,7 @@ Going into a pack with some leftover maelstrom, you'll want to do something like
 <br>
 ### 2. Liquid Magma Totem also does damage
 {{ site.data.spell.lmt }} is not only a spreading tool, it does a lot of damage and scales with haste.
-if you are planning to use 2 {{ site.data.spell.lmt }} in a pack thanks to :TR:, the second one should (almost) never be used as a spreadtool. Since {{ site.data.spell.lmt }} scales with haste, you want to get :SpE: before  using that second totem. Cast sequence will be similar to this going into a pack with leftover maelstrom:
+if you are planning to use 2 {{ site.data.spell.lmt }} in a pack thanks to {{ site.data.spell.totemic_recall }}, the second one should (almost) never be used as a spreadtool. Since {{ site.data.spell.lmt }} scales with haste, you want to get {{ site.data.spell.splintered }} before  using that second totem. Cast sequence will be similar to this going into a pack with leftover maelstrom:
 1. {{ site.data.spell.pw }}
 1. {{ site.data.spell.eq }}
 1. {{ site.data.spell.fs }} with {{site.data.spell.sop }}
